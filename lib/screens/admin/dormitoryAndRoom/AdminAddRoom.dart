@@ -137,7 +137,7 @@ class _AddRoomState extends State<AddRoom> {
               width: double.infinity,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.deepPurpleAccent,
+                  primary: Color(0xFFF7B147),
                 ),
                 onPressed: () {
                   addRoomData(

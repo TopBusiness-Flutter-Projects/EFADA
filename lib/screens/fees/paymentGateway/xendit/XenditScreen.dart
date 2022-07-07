@@ -129,7 +129,7 @@ class XenditScreenState extends State<XenditScreen> {
               obscureCardNumber: true,
               obscureCardCvv: true,
               isHolderNameVisible: true,
-              cardBgColor: Colors.deepPurpleAccent,
+              cardBgColor: Color(0xFFF7B147),
               isSwipeGestureEnabled: true,
               onCreditCardWidgetChange: (CreditCardBrand creditCardBrand) {},
             ),
@@ -192,7 +192,7 @@ class XenditScreenState extends State<XenditScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
                                   CircularProgressIndicator(
-                                    color: Colors.deepPurpleAccent,
+                                    color: Color(0xFFF7B147),
                                   ),
                                   SizedBox(
                                     height: 5,

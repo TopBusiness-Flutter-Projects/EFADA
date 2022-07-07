@@ -16,7 +16,7 @@ class CookieButton extends StatelessWidget {
             child: Text(text,
                 style: TextStyle(color: Colors.white, fontSize: 18))),
         style: ElevatedButton.styleFrom(
-          primary: Colors.deepPurpleAccent,
+          primary: Color(0xFFF7B147),
         ),
         onPressed: onPressed,
       ));

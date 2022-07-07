@@ -189,7 +189,7 @@ class _ModalBottomSheetRoute<T> extends PopupRoute<T> {
   final String barrierLabel;
 
   @override
-  Color get barrierColor => Colors.deepPurpleAccent;
+  Color get barrierColor => Color(0xFFF7B147);
 
   AnimationController _animationController;
 

@@ -83,7 +83,7 @@ class _StripePaymentScreenState extends State<StripePaymentScreen> {
                 paymentLoading
                     ? Center(
                         child: CircularProgressIndicator(
-                          color: Colors.deepPurpleAccent,
+                          color: Color(0xFFF7B147),
                         ),
                       )
                     : Container(

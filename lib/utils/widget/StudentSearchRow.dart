@@ -60,7 +60,7 @@ class _StudentRowState extends State<StudentRow> {
               )));
         }
       },
-      splashColor: Colors.purple.shade200,
+      splashColor: Color(0xFFF7B147),
       child: Column(
         children: <Widget>[
           ListTile(
@@ -83,7 +83,7 @@ class _StudentRowState extends State<StudentRow> {
               gradient: LinearGradient(
                   begin: Alignment.centerRight,
                   end: Alignment.centerLeft,
-                  colors: [Colors.purple, Colors.deepPurple]),
+                  colors: [Color(0xFFF7B147), Color(0xFFF7B147)]),
             ),
           )
         ],

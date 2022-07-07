@@ -112,9 +112,9 @@ class _FeesReportSearchWidgetState extends State<FeesReportSearchWidget> {
                         builder: (BuildContext context, Widget child) {
                           return Theme(
                             data: Theme.of(context).copyWith(
-                              primaryColor: Colors.deepPurple,
+                              primaryColor: Color(0xFFF7B147),
                               appBarTheme: AppBarTheme(
-                                color: Colors.deepPurple,
+                                color: Color(0xFFF7B147),
                               ),
                             ),
                             child: child,

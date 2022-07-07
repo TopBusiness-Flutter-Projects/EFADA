@@ -247,7 +247,7 @@ class _StudentAttendanceScreenState extends State<StudentAttendanceScreen> {
                                                   .textTheme
                                                   .headline4
                                                   .copyWith(
-                                                    color: Color(0xFF5F75EF),
+                                                    color: Color(0xFFF7B147),
                                                     fontSize: ScreenUtil()
                                                         .setSp(14.0),
                                                   )),
@@ -362,8 +362,8 @@ class _StudentAttendanceScreenState extends State<StudentAttendanceScreen> {
                       bottomDesign('Present'.tr, 'P', Colors.green),
                       bottomDesign('Absent'.tr, 'A', Colors.red),
                       bottomDesign('Late'.tr, 'L', Color(0xFFEDD200)),
-                      bottomDesign('Halfday'.tr, 'H', Colors.purpleAccent),
-                      bottomDesign('Holiday'.tr, 'F', Colors.deepPurpleAccent),
+                      bottomDesign('Halfday'.tr, 'H', Color(0xFFF7B147)),
+                      bottomDesign('Holiday'.tr, 'F', Color(0xFFF7B147)),
                     ],
                   ),
                 ),
@@ -460,10 +460,10 @@ class _StudentAttendanceScreenState extends State<StudentAttendanceScreen> {
         return Color(0xFFEDD200);
         break;
       case 'H':
-        return Colors.purpleAccent;
+        return Color(0xFFF7B147);
         break;
       case 'F':
-        return Colors.deepPurple;
+        return Color(0xFFF7B147);
         break;
       default:
         return Colors.transparent;

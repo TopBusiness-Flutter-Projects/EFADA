@@ -50,8 +50,8 @@ class _StudentWalletTransactionsState extends State<StudentWalletTransactions> {
                             borderRadius: BorderRadius.circular(20.0),
                             gradient: LinearGradient(
                               colors: [
-                                Color(0xff7C32FF),
-                                Color(0xffC738D8),
+                                Color(0xFFF7B147),
+                                Color(0xFFF7B147),
                               ],
                             )),
                         child: Text(
@@ -77,8 +77,8 @@ class _StudentWalletTransactionsState extends State<StudentWalletTransactions> {
                               borderRadius: BorderRadius.circular(5.0),
                               gradient: LinearGradient(
                                 colors: [
-                                  Color(0xff7C32FF),
-                                  Color(0xffC738D8),
+                                  Color(0xFFF7B147),
+                                  Color(0xFFF7B147),
                                 ],
                               )),
                           child: Text(

@@ -125,7 +125,7 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                 image: AssetImage(AppConfig.appToolbarBackground),
                 fit: BoxFit.fill,
               ),
-              color: Colors.deepPurple,
+              color: Color(0xFFF7B147),
             ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -199,7 +199,7 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                             alignment: Alignment.center,
                             child: CircleAvatar(
                               radius: 25,
-                              backgroundColor: Colors.deepPurpleAccent,
+                              backgroundColor: Color(0xFFF7B147),
                               child: CachedNetworkImage(
                                 imageUrl:
                                     "${InfixApi.root}/${_studentDetails.studentData.user.studentPhoto}",
@@ -267,11 +267,11 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                                 appBar: AppBar(
                                   automaticallyImplyLeading: false,
                                   backgroundColor: Colors.white,
-                                  // shadowColor: Colors.purple,
+                                  // shadowColor: Color(0xFFF7B147),
                                   elevation: 0,
                                   title: TabBar(
-                                    labelColor: Color(0xff415094),
-                                    indicatorColor: Colors.purple,
+                                    labelColor: Color(0xFFF7B147),
+                                    indicatorColor: Color(0xFFF7B147),
                                     indicatorWeight: 3,
                                     tabs: tabs,
                                     isScrollable: true,
@@ -280,17 +280,17 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                                         .textTheme
                                         .headline6
                                         .copyWith(
-                                            color: Color(0xff415094),
+                                            color: Color(0xFFF7B147),
                                             fontSize: ScreenUtil().setSp(11),
                                             fontWeight: FontWeight.bold),
                                     unselectedLabelStyle: Theme.of(context)
                                         .textTheme
                                         .headline6
                                         .copyWith(
-                                            color: Color(0xff415094),
+                                            color: Color(0xFFF7B147),
                                             fontSize: ScreenUtil().setSp(11),
                                             fontWeight: FontWeight.bold),
-                                    unselectedLabelColor: Color(0xff415094),
+                                    unselectedLabelColor: Color(0xFFF7B147),
                                   ),
                                 ),
                                 body: Column(
@@ -785,7 +785,7 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                       Icon(
                         Icons.file_present,
                         size: 20,
-                        color: Colors.deepPurple,
+                        color: Color(0xFFF7B147),
                       ),
                       SizedBox(
                         width: 10,
@@ -823,7 +823,7 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                       Icon(
                         Icons.file_present,
                         size: 20,
-                        color: Colors.deepPurple,
+                        color: Color(0xFFF7B147),
                       ),
                       SizedBox(
                         width: 10,
@@ -861,7 +861,7 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                       Icon(
                         Icons.file_present,
                         size: 20,
-                        color: Colors.deepPurple,
+                        color: Color(0xFFF7B147),
                       ),
                       SizedBox(
                         width: 10,
@@ -899,7 +899,7 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                       Icon(
                         Icons.file_present,
                         size: 20,
-                        color: Colors.deepPurple,
+                        color: Color(0xFFF7B147),
                       ),
                       SizedBox(
                         width: 10,

@@ -58,7 +58,7 @@ class _AdminSettingsState extends State<AdminSettings> {
               elevation: 10,
               color: Colors.transparent,
               child: CircleAvatar(
-                backgroundColor: Colors.deepPurpleAccent,
+                backgroundColor: Color(0xFFF7B147),
                 child: Icon(
                   Icons.settings_cell,
                   color: Colors.white,
@@ -75,7 +75,7 @@ class _AdminSettingsState extends State<AdminSettings> {
               },
               child: Container(
                   decoration: BoxDecoration(
-                      color: perm == 1 ? Colors.deepPurple : Colors.redAccent,
+                      color: perm == 1 ? Color(0xFFF7B147) : Colors.redAccent,
                       borderRadius: BorderRadius.circular(8)),
                   child: Padding(
                     padding: const EdgeInsets.all(5.0),
@@ -96,7 +96,7 @@ class _AdminSettingsState extends State<AdminSettings> {
               elevation: 10,
               color: Colors.transparent,
               child: CircleAvatar(
-                backgroundColor: Colors.deepPurpleAccent,
+                backgroundColor: Color(0xFFF7B147),
                 child: Icon(
                   Icons.add_box,
                   color: Colors.white,

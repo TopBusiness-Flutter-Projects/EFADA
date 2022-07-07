@@ -429,7 +429,7 @@
 //                     height: 40.0,
 //                     margin: EdgeInsets.symmetric(horizontal: 20.0),
 //                     decoration: BoxDecoration(
-//                       color: Colors.deepPurple,
+//                       color: Color(0xFFF7B147),
 //                       borderRadius: BorderRadius.circular(5),
 //                     ),
 //                     child: Center(
@@ -577,7 +577,7 @@
 //                         labelText: "Amount",
 //                         labelStyle: Theme.of(context).textTheme.headline4,
 //                         errorStyle:
-//                             TextStyle(color: Colors.pinkAccent, fontSize: 15.0),
+//                             TextStyle(color: Color(0xFFF7B147), fontSize: 15.0),
 //                         border: OutlineInputBorder(
 //                           borderRadius: BorderRadius.circular(5.0),
 //                         )),
@@ -603,7 +603,7 @@
 //                       }
 //                     },
 //                     style: ElevatedButton.styleFrom(
-//                       primary: Colors.purpleAccent,
+//                       primary: Color(0xFFF7B147),
 //                     ),
 //                     child: Text(
 //                       "Continue",

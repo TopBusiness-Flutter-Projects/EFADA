@@ -196,7 +196,7 @@ class _EditProfileState extends State<EditProfile> {
                                   ? 'Select image'.tr
                                   : _file.path.split('/').last,
                               errorStyle: TextStyle(
-                                  color: Colors.pinkAccent, fontSize: 15.0),
+                                  color: Color(0xFFF7B147), fontSize: 15.0),
                               border: OutlineInputBorder(
                                 borderRadius: BorderRadius.circular(5.0),
                               ),
@@ -233,7 +233,7 @@ class _EditProfileState extends State<EditProfile> {
                                   labelStyle:
                                       Theme.of(context).textTheme.headline4,
                                   errorStyle: TextStyle(
-                                    color: Colors.pinkAccent,
+                                    color: Color(0xFFF7B147),
                                     fontSize: 15.0,
                                   ),
                                   border: OutlineInputBorder(
@@ -251,7 +251,7 @@ class _EditProfileState extends State<EditProfile> {
                               },
                               icon: Icon(
                                 Icons.edit,
-                                color: Colors.deepPurpleAccent,
+                                color: Color(0xFFF7B147),
                               ),
                             ),
                           ],
@@ -279,7 +279,7 @@ class _EditProfileState extends State<EditProfile> {
                                   labelStyle:
                                       Theme.of(context).textTheme.headline4,
                                   errorStyle: TextStyle(
-                                    color: Colors.pinkAccent,
+                                    color: Color(0xFFF7B147),
                                     fontSize: 15.0,
                                   ),
                                   border: OutlineInputBorder(
@@ -297,7 +297,7 @@ class _EditProfileState extends State<EditProfile> {
                               },
                               icon: Icon(
                                 Icons.edit,
-                                color: Colors.deepPurpleAccent,
+                                color: Color(0xFFF7B147),
                               ),
                             ),
                           ],
@@ -321,7 +321,7 @@ class _EditProfileState extends State<EditProfile> {
                                   labelStyle:
                                       Theme.of(context).textTheme.headline4,
                                   errorStyle: TextStyle(
-                                    color: Colors.pinkAccent,
+                                    color: Color(0xFFF7B147),
                                     fontSize: 15.0,
                                   ),
                                   border: OutlineInputBorder(
@@ -362,7 +362,7 @@ class _EditProfileState extends State<EditProfile> {
                               },
                               icon: Icon(
                                 Icons.edit,
-                                color: Colors.deepPurpleAccent,
+                                color: Color(0xFFF7B147),
                               ),
                             ),
                           ],
@@ -391,7 +391,7 @@ class _EditProfileState extends State<EditProfile> {
                                   labelStyle:
                                       Theme.of(context).textTheme.headline4,
                                   errorStyle: TextStyle(
-                                    color: Colors.pinkAccent,
+                                    color: Color(0xFFF7B147),
                                     fontSize: 15.0,
                                   ),
                                   border: OutlineInputBorder(
@@ -409,7 +409,7 @@ class _EditProfileState extends State<EditProfile> {
                               },
                               icon: Icon(
                                 Icons.edit,
-                                color: Colors.deepPurpleAccent,
+                                color: Color(0xFFF7B147),
                               ),
                             ),
                           ],

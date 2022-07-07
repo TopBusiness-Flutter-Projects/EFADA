@@ -85,7 +85,7 @@ class _TeacherHomeworkRowState extends State<TeacherHomeworkRow> {
                       'Evaluation',
                       textAlign: TextAlign.end,
                       style: Theme.of(context).textTheme.headline6.copyWith(
-                          color: Colors.deepPurpleAccent,
+                          color: Color(0xFFF7B147),
                           decoration: TextDecoration.underline),
                     ),
                   ),
@@ -205,7 +205,7 @@ class _TeacherHomeworkRowState extends State<TeacherHomeworkRow> {
                   gradient: LinearGradient(
                       begin: Alignment.centerRight,
                       end: Alignment.centerLeft,
-                      colors: [Colors.purple, Colors.deepPurple]),
+                      colors: [Color(0xFFF7B147), Color(0xFFF7B147)]),
                 ),
               ),
             ],

@@ -190,7 +190,7 @@ class _FeesRowNewState extends State<FeesRowNew> {
             gradient: LinearGradient(
                 begin: Alignment.centerRight,
                 end: Alignment.centerLeft,
-                colors: [Colors.purple, Colors.deepPurple]),
+                colors: [Color(0xFFF7B147), Color(0xFFF7B147)]),
           ),
         ),
       ],
@@ -400,7 +400,7 @@ class _FeesRowNewState extends State<FeesRowNew> {
                                   labelStyle:
                                       Theme.of(context).textTheme.headline4,
                                   errorStyle: TextStyle(
-                                      color: Colors.pinkAccent, fontSize: 15.0),
+                                      color: Color(0xFFF7B147), fontSize: 15.0),
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(5.0),
                                   ),

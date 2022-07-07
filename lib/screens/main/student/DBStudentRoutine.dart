@@ -86,7 +86,7 @@ class _DBStudentRoutineState extends State<DBStudentRoutine> {
                 image: AssetImage(AppConfig.appToolbarBackground),
                 fit: BoxFit.fill,
               ),
-              color: Colors.deepPurple,
+              color: Color(0xFFF7B147),
             ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -168,8 +168,8 @@ class _DBStudentRoutineState extends State<DBStudentRoutine> {
                         gradient: _userController.selectedRecord.value == record
                             ? LinearGradient(
                                 colors: [
-                                  Color(0xff7C32FF),
-                                  Color(0xffC738D8),
+                                  Color(0xFFF7B147),
+                                  Color(0xFFF7B147),
                                 ],
                               )
                             : LinearGradient(
@@ -291,7 +291,7 @@ class _DBStudentRoutineState extends State<DBStudentRoutine> {
                                           child: Container(
                                             height: 0.5,
                                             decoration: BoxDecoration(
-                                              color: Color(0xFF415094),
+                                              color: Color(0xFFF7B147),
                                             ),
                                           ),
                                         )

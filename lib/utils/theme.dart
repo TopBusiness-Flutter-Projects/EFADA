@@ -12,14 +12,14 @@ ThemeData basicTheme() {
         textStyle: base.headline5.copyWith(
           fontSize: 16.sp,
           fontWeight: FontWeight.w600,
-          color: Color(0xFF415094),
+          color: Color(0xFFF7B147),
         ),
       ),
       subtitle1: GoogleFonts.poppins(
         textStyle: base.subtitle1.copyWith(
           fontSize: 16.sp,
           fontWeight: FontWeight.w500,
-          color: Color(0xFF415094),
+          color: Color(0xFFF7B147),
         ),
       ),
       subtitle2: GoogleFonts.poppins(
@@ -33,7 +33,7 @@ ThemeData basicTheme() {
         textStyle: base.headline6.copyWith(
           fontSize: 14.sp,
           fontWeight: FontWeight.w500,
-          color: Color(0xFF415094),
+          color: Color(0xFFF7B147),
         ),
       ),
       headline4: GoogleFonts.poppins(
@@ -66,8 +66,8 @@ ThemeData basicTheme() {
   return base.copyWith(
       textTheme: _basicTextTheme(base.textTheme),
       //textTheme: Typography().white,
-      primaryColor: Colors.indigo,
-      //primaryColor: Color(0xff4829b2),
+    // primaryColor: Colors.indigo,
+     primaryColor: Color(0xFFF7B147),
       indicatorColor: Color(0xFF807A6B),
       scaffoldBackgroundColor: Color(0xFFF5F5F5),
       iconTheme: IconThemeData(
@@ -76,7 +76,7 @@ ThemeData basicTheme() {
       ),
       backgroundColor: Colors.white,
       tabBarTheme: base.tabBarTheme.copyWith(
-        labelColor: Color(0xffce107c),
+        labelColor: Color(0xFFF7B147),
         unselectedLabelColor: Colors.grey,
       ));
 }

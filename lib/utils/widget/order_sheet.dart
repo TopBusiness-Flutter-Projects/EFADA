@@ -69,7 +69,7 @@ class OrderSheet extends StatelessWidget {
               style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
-                  color: Colors.deepPurple),
+                  color: Color(0xFFF7B147)),
               textAlign: TextAlign.center,
             ),
           ),
@@ -104,7 +104,7 @@ class OrderSheet extends StatelessWidget {
                       ? AssetImage("assets/images/applePayLogo.png")
                       : AssetImage("assets/images/googlePayLogo.png")),
               style: ElevatedButton.styleFrom(
-                primary: Colors.deepPurpleAccent,
+                primary: Color(0xFFF7B147),
               ),
             ),
           ),
@@ -156,7 +156,7 @@ class _LineDivider extends StatelessWidget {
       margin: EdgeInsets.only(left: 30, right: 30),
       child: Divider(
         height: 1,
-        color: Colors.deepPurpleAccent,
+        color: Color(0xFFF7B147),
       ));
 }
 

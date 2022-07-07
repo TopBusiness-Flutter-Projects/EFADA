@@ -302,7 +302,7 @@ class _StudentListAttendanceState extends State<StudentListAttendance> {
                             height: 50.0,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(20.0),
-                              color: Colors.purple,
+                              color: Color(0xFFF7B147),
                             ),
                             child: Text(
                               "OK".tr,

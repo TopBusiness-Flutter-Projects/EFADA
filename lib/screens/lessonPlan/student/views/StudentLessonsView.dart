@@ -206,7 +206,7 @@ class _StudentLessonsViewState extends State<StudentLessonsView> {
                                   },
                                   icon: Icon(
                                     Icons.arrow_back_ios,
-                                    color: Colors.deepPurple,
+                                    color: Color(0xFFF7B147),
                                     size: 16,
                                   ),
                                 ),
@@ -237,7 +237,7 @@ class _StudentLessonsViewState extends State<StudentLessonsView> {
                                   },
                                   icon: Icon(
                                     Icons.arrow_forward_ios,
-                                    color: Colors.deepPurple,
+                                    color: Color(0xFFF7B147),
                                     size: 16,
                                   ),
                                 ),
@@ -277,7 +277,7 @@ class _StudentLessonsViewState extends State<StudentLessonsView> {
                                                         ? 1.0
                                                         : 0,
                                                     color:
-                                                        Colors.purple.shade900),
+                                                        Color(0xFFF7B147)),
                                               )
                                             : null,
                                       ),

@@ -116,8 +116,8 @@ class _StudentAttendanceRowState extends State<StudentAttendanceRow> {
                     ? "P"
                     : attendanceStudents.attendanceType,
                 elevation: 0,
-                unSelectedColor: Colors.deepPurple.shade100,
-                selectedColor: Colors.deepPurple,
+                unSelectedColor: Color(0xFFF7B147),
+                selectedColor: Color(0xFFF7B147),
                 buttonLables: [
                   'Present',
                   'Late',
@@ -132,7 +132,7 @@ class _StudentAttendanceRowState extends State<StudentAttendanceRow> {
                 ],
                 buttonTextStyle: ButtonTextStyle(
                     selectedColor: Colors.white,
-                    unSelectedColor: Color(0xff415094),
+                    unSelectedColor: Color(0xFFF7B147),
                     textStyle: TextStyle(fontSize: ScreenUtil().setSp(14))),
                 radioButtonValue: (value) {
                   setState(() {
@@ -169,7 +169,7 @@ class _StudentAttendanceRowState extends State<StudentAttendanceRow> {
             gradient: LinearGradient(
                 begin: Alignment.centerRight,
                 end: Alignment.centerLeft,
-                colors: [Colors.purple, Colors.deepPurple]),
+                colors: [Color(0xFFF7B147), Color(0xFFF7B147)]),
           ),
         )
       ],

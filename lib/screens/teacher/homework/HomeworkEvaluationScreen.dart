@@ -87,7 +87,7 @@ class _HomeworkEvaluationScreenState extends State<HomeworkEvaluationScreen> {
                 gradient: LinearGradient(
                     begin: Alignment.centerRight,
                     end: Alignment.centerLeft,
-                    colors: [Colors.purple, Colors.deepPurple]),
+                    colors: [Color(0xFFF7B147), Color(0xFFF7B147)]),
               ),
             ),
             Expanded(
@@ -449,8 +449,8 @@ class _HomeworkEvaluationScreenState extends State<HomeworkEvaluationScreen> {
                                           begin: Alignment.centerRight,
                                           end: Alignment.centerLeft,
                                           colors: [
-                                            Colors.purple,
-                                            Colors.deepPurple
+                                            Color(0xFFF7B147),
+                                            Color(0xFFF7B147)
                                           ]),
                                     ),
                                   ),

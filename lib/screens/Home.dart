@@ -229,7 +229,7 @@ class _HomeState extends State<Home> {
               title: message.notification.title,
               description: message.notification.body,
               gravity: EdgeAlert.TOP,
-              backgroundColor: Colors.deepPurple,
+              backgroundColor: Color(0xFFF7B147),
               icon: Icons.notifications_active,
               duration: 5,
             );
@@ -266,7 +266,7 @@ class _HomeState extends State<Home> {
             title: message.notification.title,
             description: message.notification.body,
             gravity: EdgeAlert.TOP,
-            backgroundColor: Colors.deepPurple,
+            backgroundColor: Color(0xFFF7B147),
             icon: Icons.notifications_active,
             duration: 5,
           );
@@ -291,7 +291,7 @@ class _HomeState extends State<Home> {
                 image: AssetImage(AppConfig.appToolbarBackground),
                 fit: BoxFit.fill,
               ),
-              color: Colors.deepPurple,
+              color: Color(0xFFF7B147),
             ),
             child: Row(
               children: [
@@ -449,7 +449,7 @@ class _HomeState extends State<Home> {
                   decoration:
                       BoxDecoration(shape: BoxShape.rectangle, boxShadow: [
                     BoxShadow(
-                      color: Colors.deepPurple,
+                      color: Color(0xFFF7B147),
                       blurRadius: 20.0,
                     ),
                   ]),
@@ -498,8 +498,8 @@ class _HomeState extends State<Home> {
                                                       end: Alignment
                                                           .bottomCenter,
                                                       colors: [
-                                                        Colors.purpleAccent,
-                                                        Colors.deepPurpleAccent
+                                                        Color(0xFFF7B147),
+                                                        Color(0xFFF7B147)
                                                       ]),
                                                   borderRadius:
                                                       BorderRadius.circular(
@@ -568,7 +568,7 @@ class _HomeState extends State<Home> {
                                                 children: [
                                                   Icon(
                                                     FontAwesomeIcons.solidBell,
-                                                    color: Colors.deepPurple,
+                                                    color: Color(0xFFF7B147),
                                                     size:
                                                         ScreenUtil().setSp(15),
                                                   ),
@@ -659,7 +659,7 @@ class _HomeState extends State<Home> {
                                             ),
                                       ),
                                       style: ElevatedButton.styleFrom(
-                                        primary: Colors.deepPurple,
+                                        primary: Color(0xFFF7B147),
                                       ),
                                     ),
                                   ],
@@ -758,7 +758,7 @@ class _HomeState extends State<Home> {
                       //color: const Color(0xFF66BB6A),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.deepPurple,
+                          color: Color(0xFFF7B147),
                           blurRadius: 20.0,
                         ),
                       ]),
@@ -851,7 +851,7 @@ class _HomeState extends State<Home> {
                       //color: const Color(0xFF66BB6A),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.deepPurple.shade300,
+                          color: Color(0xFFF7B147),
                           blurRadius: 20.0,
                         ),
                       ]),

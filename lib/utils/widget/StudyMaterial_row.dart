@@ -69,7 +69,7 @@ class StudyMaterialListRow extends StatelessWidget {
                           'Download',
                           style: Theme.of(context).textTheme.headline6.copyWith(
                               fontSize: 15,
-                              color: Colors.deepPurpleAccent,
+                              color: Color(0xFFF7B147),
                               decoration: TextDecoration.underline),
                         ),
                       ),
@@ -148,7 +148,7 @@ class StudyMaterialListRow extends StatelessWidget {
                 gradient: LinearGradient(
                     begin: Alignment.centerRight,
                     end: Alignment.centerLeft,
-                    colors: [Colors.purple, Colors.deepPurple]),
+                    colors: [Color(0xFFF7B147), Color(0xFFF7B147)]),
               ),
             ),
           ],

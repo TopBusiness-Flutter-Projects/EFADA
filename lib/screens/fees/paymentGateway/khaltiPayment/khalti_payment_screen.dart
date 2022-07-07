@@ -40,7 +40,7 @@ class KhaltiInvoicePayment extends StatelessWidget {
       length: _tabs.length,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.deepPurpleAccent,
+          backgroundColor: Color(0xFFF7B147),
           automaticallyImplyLeading: false,
           flexibleSpace: Container(
             decoration: BoxDecoration(
@@ -48,7 +48,7 @@ class KhaltiInvoicePayment extends StatelessWidget {
                 image: AssetImage(AppConfig.appToolbarBackground),
                 fit: BoxFit.fill,
               ),
-              color: Colors.deepPurple,
+              color: Color(0xFFF7B147),
             ),
           ),
           title: Container(
@@ -182,7 +182,7 @@ class _WalletPaymentState extends State<WalletPayment> {
           const SizedBox(height: 24),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-                primary: Colors.deepPurpleAccent,
+                primary: Color(0xFFF7B147),
                 padding: EdgeInsets.symmetric(vertical: 10),
                 textStyle:
                     TextStyle(fontSize: 16.sp, fontWeight: FontWeight.bold)),

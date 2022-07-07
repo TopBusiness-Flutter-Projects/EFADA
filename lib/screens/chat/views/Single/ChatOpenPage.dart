@@ -1235,7 +1235,7 @@ class _ChatOpenPageState extends State<ChatOpenPage> {
                   image: AssetImage(AppConfig.appToolbarBackground),
                   fit: BoxFit.fill,
                 ),
-                color: Colors.deepPurple,
+                color: Color(0xFFF7B147),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,

@@ -185,7 +185,7 @@ class _AddContentScreeenState extends State<AddContentScreeen> {
                             labelText: "Title".tr,
                             labelStyle: Theme.of(context).textTheme.headline4,
                             errorStyle: TextStyle(
-                                color: Colors.pinkAccent,
+                                color: Color(0xFFF7B147),
                                 fontSize: ScreenUtil().setSp(12)),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(5.0),
@@ -219,7 +219,7 @@ class _AddContentScreeenState extends State<AddContentScreeen> {
                           allClasses = 0;
                         });
                       },
-                      activeColor: Colors.purple,
+                      activeColor: Color(0xFFF7B147),
                       selected: true,
                       dense: true,
                     ),
@@ -244,7 +244,7 @@ class _AddContentScreeenState extends State<AddContentScreeen> {
                           radioStr = val;
                         });
                       },
-                      activeColor: Colors.purple,
+                      activeColor: Color(0xFFF7B147),
                       dense: true,
                     ),
                     SizedBox(
@@ -378,7 +378,7 @@ class _AddContentScreeenState extends State<AddContentScreeen> {
                             labelText: "Description".tr,
                             labelStyle: Theme.of(context).textTheme.headline4,
                             errorStyle: TextStyle(
-                                color: Colors.pinkAccent, fontSize: 15.0),
+                                color: Color(0xFFF7B147), fontSize: 15.0),
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(5.0),
                             )),
@@ -554,7 +554,7 @@ class _AddContentScreeenState extends State<AddContentScreeen> {
                                           allClasses = val;
                                         });
                                       },
-                                      activeColor: Colors.purple,
+                                      activeColor: Color(0xFFF7B147),
                                     ),
                                     onTap: () {
                                       setState(() {

@@ -90,7 +90,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   });
                                 },
                                 style: ElevatedButton.styleFrom(
-                                    primary: Colors.purpleAccent,
+                                    primary: Color(0xFFF7B147),
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(8.0),
@@ -122,7 +122,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   });
                                 },
                                 style: ElevatedButton.styleFrom(
-                                    primary: Colors.purpleAccent,
+                                    primary: Color(0xFFF7B147),
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.all(
                                         Radius.circular(0.0),
@@ -149,7 +149,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   });
                                 },
                                 style: ElevatedButton.styleFrom(
-                                    primary: Colors.purpleAccent,
+                                    primary: Color(0xFFF7B147),
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.only(
                                         topRight: Radius.circular(8.0),
@@ -188,7 +188,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       labelText: "Email".tr,
                       labelStyle: textStyle,
                       errorStyle:
-                          TextStyle(color: Colors.pinkAccent, fontSize: 15.0),
+                          TextStyle(color: Color(0xFFF7B147), fontSize: 15.0),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(5.0),
                       ),
@@ -219,7 +219,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       labelText: "Password".tr,
                       labelStyle: textStyle,
                       errorStyle:
-                          TextStyle(color: Colors.pinkAccent, fontSize: 15.0),
+                          TextStyle(color: Color(0xFFF7B147), fontSize: 15.0),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(5.0),
                       ),

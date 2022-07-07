@@ -66,7 +66,7 @@ class _SettingScreenState extends State<SettingScreen> {
               showChangeLanguageAlert(_scaffold.currentContext);
             },
             leading: CircleAvatar(
-              backgroundColor: Colors.deepPurpleAccent,
+              backgroundColor: Color(0xFFF7B147),
               child: Icon(
                 Icons.language,
                 color: Colors.white,
@@ -103,7 +103,7 @@ class _SettingScreenState extends State<SettingScreen> {
               Navigator.of(context).push(ScaleRoute(page: ChangePassword()));
             },
             leading: CircleAvatar(
-              backgroundColor: Colors.deepPurpleAccent,
+              backgroundColor: Color(0xFFF7B147),
               child: Icon(
                 Icons.lock,
                 color: Colors.white,
@@ -135,10 +135,10 @@ class _SettingScreenState extends State<SettingScreen> {
             ),
           ),
           ToggleButtons(
-            borderColor: Colors.deepPurple,
-            fillColor: Colors.deepPurple.shade200,
+            borderColor: Color(0xFFF7B147),
+            fillColor: Color(0xFFF7B147),
             borderWidth: 2,
-            selectedBorderColor: Colors.deepPurple,
+            selectedBorderColor: Color(0xFFF7B147),
             selectedColor: Colors.white,
             borderRadius: BorderRadius.circular(0),
             children: <Widget>[

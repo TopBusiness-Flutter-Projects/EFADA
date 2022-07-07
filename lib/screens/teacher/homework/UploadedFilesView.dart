@@ -64,7 +64,7 @@ class _UploadedFilesViewState extends State<UploadedFilesView> {
                                 children: [
                                   Icon(
                                     Icons.picture_as_pdf,
-                                    color: Colors.deepPurple,
+                                    color: Color(0xFFF7B147),
                                   ),
                                   Text(
                                     'View',

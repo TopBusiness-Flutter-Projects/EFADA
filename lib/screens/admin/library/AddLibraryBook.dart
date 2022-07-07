@@ -275,7 +275,7 @@ class _AddAdminBookState extends State<AddAdminBook> {
                   width: double.infinity,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.deepPurpleAccent,
+                      primary: Color(0xFFF7B147),
                     ),
                     onPressed: () {
                       String title = titleController.text;

@@ -102,7 +102,7 @@ class _AddVehicleState extends State<AddVehicle> {
                   title: TabBar(
                     labelColor: Colors.black,
                     labelPadding: EdgeInsets.zero,
-                    indicatorColor: Colors.purple,
+                    indicatorColor: Color(0xFFF7B147),
                     tabs: tabs,
                     indicatorPadding: EdgeInsets.zero,
                   ),
@@ -331,7 +331,7 @@ class _AddVehicleState extends State<AddVehicle> {
                   width: double.infinity,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.deepPurpleAccent,
+                      primary: Color(0xFFF7B147),
                     ),
                     onPressed: () {
                       addVehicleData(

@@ -162,7 +162,7 @@ class AddPaypalAmount extends StatelessWidget {
                     labelText: "amount",
                     labelStyle: Theme.of(context).textTheme.headline4,
                     errorStyle:
-                        TextStyle(color: Colors.pinkAccent, fontSize: 15.0),
+                        TextStyle(color: Color(0xFFF7B147), fontSize: 15.0),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5.0),
                     )),
@@ -179,7 +179,7 @@ class AddPaypalAmount extends StatelessWidget {
                               '${absoluteAmount(amountController.text)}', id)));
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.purpleAccent,
+                  primary: Color(0xFFF7B147),
                 ),
                 child: Text(
                   "Enter amount",

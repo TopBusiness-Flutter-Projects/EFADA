@@ -126,7 +126,7 @@ class _EvaluateScreenState extends State<EvaluateScreen> {
                     labelText: "Set Marks out of ${widget.totalMarks}",
                     labelStyle: Theme.of(context).textTheme.headline4,
                     errorStyle:
-                        TextStyle(color: Colors.pinkAccent, fontSize: 15.0),
+                        TextStyle(color: Color(0xFFF7B147), fontSize: 15.0),
                     errorMaxLines: 3,
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(5.0),
@@ -166,7 +166,7 @@ class _EvaluateScreenState extends State<EvaluateScreen> {
                           ],
                           buttonTextStyle: ButtonTextStyle(
                               selectedColor: Colors.white,
-                              unSelectedColor: Color(0xff415094),
+                              unSelectedColor: Color(0xFFF7B147),
                               textStyle:
                                   TextStyle(fontSize: ScreenUtil().setSp(14))),
                           radioButtonValue: (value) {
@@ -225,7 +225,7 @@ class _EvaluateScreenState extends State<EvaluateScreen> {
                             ],
                             buttonTextStyle: ButtonTextStyle(
                                 selectedColor: Colors.white,
-                                unSelectedColor: Color(0xff415094),
+                                unSelectedColor: Color(0xFFF7B147),
                                 textStyle: TextStyle(
                                     fontSize: ScreenUtil().setSp(14))),
                             radioButtonValue: (value) {
@@ -315,7 +315,7 @@ class _EvaluateScreenState extends State<EvaluateScreen> {
                                         children: [
                                           Icon(
                                             Icons.picture_as_pdf,
-                                            color: Colors.deepPurple,
+                                            color: Color(0xFFF7B147),
                                           ),
                                           Text(
                                             'View',

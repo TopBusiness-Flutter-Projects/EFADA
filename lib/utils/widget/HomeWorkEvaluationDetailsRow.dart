@@ -156,7 +156,7 @@ class _HomeWorkEvaluationDetailsRowState
                   child: Icon(
                     FontAwesomeIcons.download,
                     size: 15,
-                    color: Colors.deepPurpleAccent,
+                    color: Color(0xFFF7B147),
                   ),
                 ),
               ),

@@ -168,9 +168,9 @@ class _FeeBankPaymentSearchState extends State<FeeBankPaymentSearch> {
                                 builder: (BuildContext context, Widget child) {
                                   return Theme(
                                     data: Theme.of(context).copyWith(
-                                      primaryColor: Colors.deepPurple,
+                                      primaryColor: Color(0xFFF7B147),
                                       appBarTheme: AppBarTheme(
-                                        color: Colors.deepPurple,
+                                        color: Color(0xFFF7B147),
                                       ),
                                     ),
                                     child: child,
@@ -312,7 +312,7 @@ class _FeeBankPaymentSearchState extends State<FeeBankPaymentSearch> {
                                         PopupMenuButton(
                                           child: Icon(
                                             Icons.more_vert,
-                                            color: Colors.deepPurple,
+                                            color: Color(0xFFF7B147),
                                             size: 20,
                                           ),
                                           itemBuilder: (context) {
@@ -625,8 +625,8 @@ class _FeeBankPaymentSearchState extends State<FeeBankPaymentSearch> {
           Icons.search,
           color: Colors.white,
         ),
-        foregroundColor: Colors.deepPurple,
-        backgroundColor: Colors.deepPurple,
+        foregroundColor: Color(0xFFF7B147),
+        backgroundColor: Color(0xFFF7B147),
         tooltip: 'Search Bank Payment',
         onPressed: () {
           setState(() {

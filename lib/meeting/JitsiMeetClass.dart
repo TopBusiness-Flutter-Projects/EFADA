@@ -75,7 +75,7 @@
 //           ),
 //           CheckboxListTile(
 //             checkColor: Colors.white,
-//             activeColor: Colors.deepPurple,
+//             activeColor: Color(0xFFF7B147),
 //             title: Text("Audio Only"),
 //             value: isAudioOnly,
 //             onChanged: _onAudioOnlyChanged,
@@ -85,7 +85,7 @@
 //           ),
 //           CheckboxListTile(
 //             checkColor: Colors.white,
-//             activeColor: Colors.deepPurple,
+//             activeColor: Color(0xFFF7B147),
 //             title: Text("Audio Muted"),
 //             value: isAudioMuted,
 //             onChanged: _onAudioMutedChanged,
@@ -95,7 +95,7 @@
 //           ),
 //           CheckboxListTile(
 //             checkColor: Colors.white,
-//             activeColor: Colors.deepPurple,
+//             activeColor: Color(0xFFF7B147),
 //             title: Text("Video Muted"),
 //             value: isVideoMuted,
 //             onChanged: _onVideoMutedChanged,
@@ -117,7 +117,7 @@
 //               ),
 //               style: ButtonStyle(
 //                   backgroundColor:
-//                   MaterialStateColor.resolveWith((states) => Colors.deepPurple)),
+//                   MaterialStateColor.resolveWith((states) => Color(0xFFF7B147))),
 //             ),
 //           ),
 //           SizedBox(

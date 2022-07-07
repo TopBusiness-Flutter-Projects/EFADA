@@ -94,7 +94,7 @@ class _BlockedUsersPageState extends State<BlockedUsersPage> {
                               child: Container(
                                 padding: const EdgeInsets.all(5),
                                 decoration: BoxDecoration(
-                                    color: Colors.deepPurple.shade500,
+                                    color: Color(0xFFF7B147),
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(5)),
                                 child: Text(

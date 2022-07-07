@@ -90,7 +90,7 @@ class _AboutScreenState extends State<AboutScreen> {
                     '${snapshot.data.schoolName}',
                     style: Theme.of(context).textTheme.headline4.copyWith(
                         fontSize: ScreenUtil().setSp(15),
-                        color: Colors.deepPurple),
+                        color: Color(0xFFF7B147)),
                   ),
                 ),
                 SizedBox(
@@ -100,7 +100,7 @@ class _AboutScreenState extends State<AboutScreen> {
                   '${snapshot.data.mainDescription}',
                   style: Theme.of(context).textTheme.headline4.copyWith(
                       fontSize: ScreenUtil().setSp(15),
-                      color: Colors.deepPurple),
+                      color: Color(0xFFF7B147)),
                 ),
                 SizedBox(
                   height: 20.h,
@@ -209,7 +209,7 @@ class _AboutScreenState extends State<AboutScreen> {
     //                 style: Theme.of(context)
     //                     .textTheme
     //                     .headline4
-    //                     .copyWith(fontSize: ScreenUtil().setSp(15), color: Colors.deepPurple),
+    //                     .copyWith(fontSize: ScreenUtil().setSp(15), color: Color(0xFFF7B147)),
     //               ),
     //             ),
     //             Expanded(

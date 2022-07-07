@@ -65,7 +65,7 @@ class _StaffNoticeScreenState extends State<StaffNoticeScreen> {
                     return Padding(
                       padding: const EdgeInsets.only(left: 12.0, right: 12.0),
                       child: Divider(
-                        color: Colors.deepPurple,
+                        color: Color(0xFFF7B147),
                         thickness: 0.5,
                       ),
                     );

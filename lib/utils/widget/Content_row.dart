@@ -148,7 +148,7 @@ class _ContentRowState extends State<ContentRow> {
                         child: Icon(
                           FontAwesomeIcons.download,
                           size: ScreenUtil().setSp(15),
-                          color: Colors.deepPurpleAccent,
+                          color: Color(0xFFF7B147),
                         ),
                       ),
                     ),
@@ -254,7 +254,7 @@ class _ContentRowState extends State<ContentRow> {
                     gradient: LinearGradient(
                         begin: Alignment.centerRight,
                         end: Alignment.centerLeft,
-                        colors: [Colors.purple, Colors.deepPurple]),
+                        colors: [Color(0xFFF7B147), Color(0xFFF7B147)]),
                   ),
                 ),
               ],

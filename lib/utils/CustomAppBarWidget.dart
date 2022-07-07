@@ -72,7 +72,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                   decoration:
                       BoxDecoration(shape: BoxShape.rectangle, boxShadow: [
                     BoxShadow(
-                      color: Colors.deepPurple,
+                      color: Color(0xFFF7B147),
                       blurRadius: 20.0,
                     ),
                   ]),
@@ -123,7 +123,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                                                         end: Alignment
                                                             .bottomCenter,
                                                         colors: [
-                                                          Colors.purpleAccent,
+                                                          Color(0xFFF7B147),
                                                           Colors
                                                               .deepPurpleAccent
                                                         ]),
@@ -196,7 +196,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                                                     Icon(
                                                       FontAwesomeIcons
                                                           .solidBell,
-                                                      color: Colors.deepPurple,
+                                                      color: Color(0xFFF7B147),
                                                       size: ScreenUtil()
                                                           .setSp(15),
                                                     ),
@@ -294,7 +294,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                                             ),
                                       ),
                                       style: ElevatedButton.styleFrom(
-                                        primary: Colors.deepPurple,
+                                        primary: Color(0xFFF7B147),
                                       ),
                                     ),
                                   ],
@@ -396,7 +396,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                       //color: const Color(0xFF66BB6A),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.deepPurple,
+                          color: Color(0xFFF7B147),
                           blurRadius: 20.0,
                         ),
                       ]),
@@ -491,7 +491,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                       //color: const Color(0xFF66BB6A),
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.deepPurple.shade300,
+                          color: Color(0xFFF7B147),
                           blurRadius: 20.0,
                         ),
                       ]),
@@ -798,7 +798,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                   image: AssetImage(AppConfig.appToolbarBackground),
                   fit: BoxFit.fill,
                 ),
-                color: Colors.deepPurple,
+                color: Color(0xFFF7B147),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,

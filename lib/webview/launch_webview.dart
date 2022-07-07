@@ -87,7 +87,7 @@ class _LaunchWebViewState extends State<LaunchWebView> {
                     image: AssetImage(AppConfig.appToolbarBackground),
                     fit: BoxFit.fill,
                   ),
-                  color: Colors.deepPurple,
+                  color: Color(0xFFF7B147),
                 ),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.start,

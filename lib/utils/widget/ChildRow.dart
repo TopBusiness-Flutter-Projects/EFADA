@@ -44,7 +44,7 @@ class _ChildRowState extends State<ChildRow> {
               childId: child.id,
             ));
       },
-      splashColor: Colors.purple.shade200,
+      splashColor: Color(0xFFF7B147),
       child: Column(
         children: <Widget>[
           ListTile(
@@ -57,7 +57,7 @@ class _ChildRowState extends State<ChildRow> {
               child.name,
               style: Theme.of(context).textTheme.subtitle2.copyWith(
                     fontWeight: FontWeight.w600,
-                    color: Color(0xff415094),
+                    color: Color(0xFFF7B147),
                   ),
             ),
             subtitle: Wrap(
@@ -74,7 +74,7 @@ class _ChildRowState extends State<ChildRow> {
               gradient: LinearGradient(
                   begin: Alignment.centerRight,
                   end: Alignment.centerLeft,
-                  colors: [Colors.purple, Colors.deepPurple]),
+                  colors: [Color(0xFFF7B147), Color(0xFFF7B147)]),
             ),
           )
         ],

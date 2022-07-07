@@ -55,7 +55,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                   image: AssetImage(AppConfig.appToolbarBackground),
                   fit: BoxFit.fill,
                 ),
-                color: Colors.deepPurple,
+                color: Color(0xFFF7B147),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -127,7 +127,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                             ),
                       ),
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.deepPurple,
+                        primary: Color(0xFFF7B147),
                       ),
                     ),
                   ],
@@ -176,7 +176,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                                   padding: const EdgeInsets.all(8.0),
                                   child: Icon(
                                     FontAwesomeIcons.solidBell,
-                                    color: Colors.deepPurple,
+                                    color: Color(0xFFF7B147),
                                     size: 15.sp,
                                   ),
                                 ),
@@ -220,7 +220,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                             actions: <Widget>[
                               IconSlideAction(
                                 caption: 'Mark as Read',
-                                color: Colors.deepPurple,
+                                color: Color(0xFFF7B147),
                                 iconWidget: Icon(
                                   Icons.panorama_fish_eye,
                                   size: 1,
@@ -243,7 +243,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                             secondaryActions: <Widget>[
                               IconSlideAction(
                                 caption: 'Mark as Read',
-                                color: Colors.deepPurple,
+                                color: Color(0xFFF7B147),
                                 iconWidget: Icon(
                                   Icons.panorama_fish_eye,
                                   size: 1,

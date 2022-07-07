@@ -44,8 +44,8 @@ class StudentRecordWidget extends StatelessWidget {
                 gradient: _userController.selectedRecord.value == record
                     ? LinearGradient(
                         colors: [
-                          Color(0xff7C32FF),
-                          Color(0xffC738D8),
+                          Color(0xFFF7B147),
+                          Color(0xFFF7B147),
                         ],
                       )
                     : LinearGradient(

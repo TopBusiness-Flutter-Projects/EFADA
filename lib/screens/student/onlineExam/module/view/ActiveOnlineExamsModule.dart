@@ -95,8 +95,8 @@ class _ActiveOnlineExamsState extends State<ActiveOnlineExams> {
                       gradient: _userController.selectedRecord.value == record
                           ? LinearGradient(
                               colors: [
-                                Color(0xff7C32FF),
-                                Color(0xffC738D8),
+                                Color(0xFFF7B147),
+                                Color(0xFFF7B147),
                               ],
                             )
                           : LinearGradient(
@@ -314,7 +314,7 @@ class _ActiveOnlineExamRowState extends State<ActiveOnlineExamRow> {
                 gradient: LinearGradient(
                     begin: Alignment.centerRight,
                     end: Alignment.centerLeft,
-                    colors: [Colors.purple, Colors.deepPurple]),
+                    colors: [Color(0xFFF7B147), Color(0xFFF7B147)]),
               ),
             ),
           ],
@@ -396,8 +396,8 @@ class _ActiveOnlineExamRowState extends State<ActiveOnlineExamRow> {
                                 borderRadius: BorderRadius.circular(5.0),
                                 gradient: LinearGradient(
                                   colors: [
-                                    Color(0xff7C32FF),
-                                    Color(0xffC738D8),
+                                    Color(0xFFF7B147),
+                                    Color(0xFFF7B147),
                                   ],
                                 ),
                               ),

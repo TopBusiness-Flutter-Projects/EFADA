@@ -54,7 +54,7 @@ class _ErrorPageState extends State<ErrorPage> {
                         'Invalid Purchase. Please activate from your server.',
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                            color: Colors.pinkAccent, fontSize: 24.0),
+                            color: Color(0xFFF7B147), fontSize: 24.0),
                       ),
                     ),
                     SizedBox(

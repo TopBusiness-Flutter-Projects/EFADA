@@ -66,7 +66,7 @@ class _AddFeeTypeState extends State<AddFeeType> {
               width: double.infinity,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.deepPurpleAccent,
+                  primary: Color(0xFFF7B147),
                 ),
                 onPressed: () {
                   addFeeData(titleController.text, descripController.text)
