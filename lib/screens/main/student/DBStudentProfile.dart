@@ -13,6 +13,7 @@ import 'package:file_utils/file_utils.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
+import 'package:infixedu/screens/main/student/DBStudentQrCode.dart';
 import 'package:infixedu/utils/model/StudentDetailsModel.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -163,6 +164,17 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                     );
                   },
                   icon: Icon(Icons.edit),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                IconButton(
+                  onPressed: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context)=>DBStudentQrCode())
+                    );
+                  },
+                  icon: Icon(Icons.qr_code_2),
                 ),
               ],
             ),
