@@ -320,4 +320,5 @@ const Map<String, String> en_US = {
   "Total Absent": "Total Absent",
   "OK": "OK",
   "Add Fees Type": "Add Fees Type",
+  "call_driver":"Call Driver"
 };

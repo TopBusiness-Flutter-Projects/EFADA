@@ -321,5 +321,6 @@ const Map<String, String> ar = {
   "Total student": "مجموع الطلاب",
   "Total Absent": "مجموع الغياب",
   "OK": "موافق",
-  "Add Fees Type": "إضافة نوعية القسط"
+  "Add Fees Type": "إضافة نوعية القسط",
+  "call_driver":"إتصل بالسائق"
 };

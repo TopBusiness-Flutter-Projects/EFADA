@@ -53,7 +53,9 @@ class Login {
         token = user['data']['accessToken'];
         fullName = user['data']['user']['full_name'] ?? "";
         phone = user['data']['user']['phone_number'] ?? "";
-        print("DADADADA${user['data']['userDetails']}");
+        print("DADADADA${rule}");
+
+
         if (rule == 2 || rule == "2") {
           studentId = user['data']['userDetails']['id'];
           print("Student => $studentId");

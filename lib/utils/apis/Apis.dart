@@ -2,6 +2,9 @@
 import 'package:infixedu/config/app_config.dart';
 
 class InfixApi {
+  //dlsapp59@gmail.com
+  //aass@123456
+  static String map_key = "AIzaSyASiLd0J-M3XswMCiyxTm5WaHSw0HNc-t0";
   static String root = AppConfig.domainName + '/';
 
   static String baseApi = root + 'api/';

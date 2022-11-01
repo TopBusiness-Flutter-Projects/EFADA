@@ -85,5 +85,13 @@
 		<true/>
 		<key>CADisableMinimumFrameDurationOnPhone</key>
 		<true/>
+
+		<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+        <dict>
+          <key>YourPurposeKey</key>
+          <string>The example App requires temporary access to the device&apos;s precise location.</string>
+        </dict>
+
+
 	</dict>
 </plist>

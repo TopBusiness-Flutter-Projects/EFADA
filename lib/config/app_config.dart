@@ -1,6 +1,6 @@
 class AppConfig {
   static String domainName =
-      'http://lms.betnaapp.com'; //** Replace with your domain name
+      'https://lms-deltaschools.com'; //** Replace with your domain name
 
   static String appName = "InfixEdu";
 

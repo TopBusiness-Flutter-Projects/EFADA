@@ -734,6 +734,10 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
     );
   }
 
+  Widget getMap(){
+    return Container();
+  }
+
   Widget getOthersList() {
     return Container(
       height: MediaQuery.of(context).size.height,

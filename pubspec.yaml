@@ -15,6 +15,9 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.0
   dio: ^4.0.0
+  google_maps_flutter: ^2.1.8
+  flutter_polyline_points: ^1.0.0
+  geolocator: ^9.0.1
   qr_flutter:
   equatable: ^2.0.3
   file_picker: ^4.2.4
