@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "943923559434",
+    "project_id": "efada-b881c",
+    "storage_bucket": "efada-b881c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943923559434:android:17f04e8ccb5610e750f3f3",
+        "android_client_info": {
+          "package_name": "com.topbusiness.efada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943923559434-rvl07t4j962n5jnshki3ccq9r1kmricl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUxoGERGUg8MWSz5K0aHZ7lwRXxaUeTNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943923559434-rvl07t4j962n5jnshki3ccq9r1kmricl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "943923559434-lstq5f857j53o84lohhhdldqqdp65bde.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.infix.emran.edu"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
