@@ -11,6 +11,7 @@ import 'package:efada/language/translation.dart';
 import 'package:efada/utils/widget/cc.dart';
 import 'package:efada/screens/SplashScreen.dart';
 
+import '../../firebase_options.dart';
 import '../../main.dart';
 import '../Utils.dart';
 import '../error.dart';
@@ -22,7 +23,7 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  final Future<FirebaseApp> _initialization = Firebase.initializeApp();
+  final Future<FirebaseApp> _initialization = Firebase.initializeApp( options: DefaultFirebaseOptions.currentPlatform);
   final LanguageController languageController= Get.put(LanguageController());
   final CustomController controller = Get.put(CustomController());
   bool isRTL;

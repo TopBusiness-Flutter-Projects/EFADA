@@ -10,11 +10,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
+import '../config/app_config.dart';
+import '../utils/Utils.dart';
+import '../utils/apis/Apis.dart';
+import '../utils/server/LoginService.dart';
+
 // Project imports:
-import 'package:efada/config/app_config.dart';
-import 'package:efada/utils/Utils.dart';
-import 'package:efada/utils/apis/Apis.dart';
-import 'package:efada/utils/server/LoginService.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -54,17 +55,17 @@ class _LoginScreenState extends State<LoginScreen> {
                   height: MediaQuery.of(context).size.height * 0.40,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                    image: AssetImage(AppConfig.loginBackground),
-                    fit: BoxFit.fill,
-                  )),
+                        image: AssetImage(AppConfig.loginBackground),
+                        fit: BoxFit.fill,
+                      )),
                   child: Center(
                     child: Container(
                       height: 150.0,
                       width: 150.0,
                       decoration: BoxDecoration(
                           image: DecorationImage(
-                        image: AssetImage(AppConfig.appLogo),
-                      )),
+                            image: AssetImage(AppConfig.appLogo),
+                          )),
                     ),
                   ),
                 ),
@@ -73,99 +74,99 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
                 AppConfig.isDemo
                     ? Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 10.0.h),
-                        child: Row(
-                          children: <Widget>[
-                            Expanded(
-                              child: ElevatedButton(
-                                onPressed: () {
-                                  user = 'student';
-                                  futureEmail = getEmail(user);
-                                  futureEmail.then((value) {
-                                    setState(() {
-                                      email = value;
-                                      emailController.text = email;
-                                      passwordController.text = password;
-                                    });
-                                  });
-                                },
-                                style: ElevatedButton.styleFrom(
-                                    primary: Color(0xFFF7B147),
-                                    shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.only(
-                                        topLeft: Radius.circular(8.0),
-                                        bottomLeft: Radius.circular(8.0),
-                                      ),
-                                    )),
-                                child: Text(
-                                  "Student",
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .headline4
-                                      .copyWith(color: Colors.white),
+                  padding: EdgeInsets.symmetric(horizontal: 10.0.h),
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: ElevatedButton(
+                          onPressed: () {
+                            user = 'student';
+                            futureEmail = getEmail(user);
+                            futureEmail.then((value) {
+                              setState(() {
+                                email = value;
+                                emailController.text = email;
+                                passwordController.text = password;
+                              });
+                            });
+                          },
+                          style: ElevatedButton.styleFrom(
+                              primary: Colors.purpleAccent,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.only(
+                                  topLeft: Radius.circular(8.0),
+                                  bottomLeft: Radius.circular(8.0),
                                 ),
-                              ),
-                            ),
-                            Expanded(
-                              child: ElevatedButton(
-                                onPressed: () {
-                                  setState(() {
-                                    user = 'teacher';
-                                    futureEmail = getEmail(user);
-                                    futureEmail.then((value) {
-                                      setState(() {
-                                        email = value;
-                                        emailController.text = email;
-                                        passwordController.text = password;
-                                      });
-                                    });
-                                  });
-                                },
-                                style: ElevatedButton.styleFrom(
-                                    primary: Color(0xFFF7B147),
-                                    shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.all(
-                                        Radius.circular(0.0),
-                                      ),
-                                    )),
-                                child: Text("Teacher",
-                                    style: Theme.of(context)
-                                        .textTheme
-                                        .headline4
-                                        .copyWith(color: Colors.white)),
-                              ),
-                            ),
-                            Expanded(
-                              child: ElevatedButton(
-                                onPressed: () {
-                                  user = 'parent';
-                                  futureEmail = getEmail(user);
-                                  futureEmail.then((value) {
-                                    setState(() {
-                                      email = value;
-                                      emailController.text = email;
-                                      passwordController.text = password;
-                                    });
-                                  });
-                                },
-                                style: ElevatedButton.styleFrom(
-                                    primary: Color(0xFFF7B147),
-                                    shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.only(
-                                        topRight: Radius.circular(8.0),
-                                        bottomRight: Radius.circular(8.0),
-                                      ),
-                                    )),
-                                child: Text("Parents",
-                                    style: Theme.of(context)
-                                        .textTheme
-                                        .headline4
-                                        .copyWith(color: Colors.white)),
-                              ),
-                            ),
-                          ],
+                              )),
+                          child: Text(
+                            "Student",
+                            style: Theme.of(context)
+                                .textTheme
+                                .headline4
+                                .copyWith(color: Colors.white),
+                          ),
                         ),
-                      )
+                      ),
+                      Expanded(
+                        child: ElevatedButton(
+                          onPressed: () {
+                            setState(() {
+                              user = 'teacher';
+                              futureEmail = getEmail(user);
+                              futureEmail.then((value) {
+                                setState(() {
+                                  email = value;
+                                  emailController.text = email;
+                                  passwordController.text = password;
+                                });
+                              });
+                            });
+                          },
+                          style: ElevatedButton.styleFrom(
+                              primary: Colors.purpleAccent,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(0.0),
+                                ),
+                              )),
+                          child: Text("Teacher",
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline4
+                                  .copyWith(color: Colors.white)),
+                        ),
+                      ),
+                      Expanded(
+                        child: ElevatedButton(
+                          onPressed: () {
+                            user = 'parent';
+                            futureEmail = getEmail(user);
+                            futureEmail.then((value) {
+                              setState(() {
+                                email = value;
+                                emailController.text = email;
+                                passwordController.text = password;
+                              });
+                            });
+                          },
+                          style: ElevatedButton.styleFrom(
+                              primary: Colors.purpleAccent,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.only(
+                                  topRight: Radius.circular(8.0),
+                                  bottomRight: Radius.circular(8.0),
+                                ),
+                              )),
+                          child: Text("Parents",
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline4
+                                  .copyWith(color: Colors.white)),
+                        ),
+                      ),
+                    ],
+                  ),
+                )
                     : Container(),
                 SizedBox(
                   height: 10.h,
@@ -188,7 +189,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       labelText: "Email".tr,
                       labelStyle: textStyle,
                       errorStyle:
-                          TextStyle(color: Color(0xFFF7B147), fontSize: 15.0),
+                      TextStyle(color: Colors.pinkAccent, fontSize: 15.0),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(5.0),
                       ),
@@ -219,7 +220,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       labelText: "Password".tr,
                       labelStyle: textStyle,
                       errorStyle:
-                          TextStyle(color: Color(0xFFF7B147), fontSize: 15.0),
+                      TextStyle(color: Colors.pinkAccent, fontSize: 15.0),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(5.0),
                       ),
@@ -292,8 +293,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 padding: const EdgeInsets.all(8.0),
                 child: isResponse == true
                     ? LinearProgressIndicator(
-                        backgroundColor: Colors.transparent,
-                      )
+                  backgroundColor: Colors.transparent,
+                )
                     : Text(''),
               ),
             ],

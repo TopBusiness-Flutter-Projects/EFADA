@@ -42,7 +42,7 @@ final String stripeCurrency = "usd";
 final String stripeMerchantID = "merchant.thegreatestmarkeplace";
 final String stripePublishableKey =
     "pk_test_51JAWNlKS0igSTFP16dhgcM1fBayh6DStrpu5OA7jjAzYiFX3Bht0X8ARULBpIAVkgmws7PWEliNi4Q35Iyk8ThQL00aoNnF3OE";
-final String appPackageName = "com.infix.lms";
+final String appPackageName = "com.topbusiness.efada";
 
 ///
 /// XENDIT

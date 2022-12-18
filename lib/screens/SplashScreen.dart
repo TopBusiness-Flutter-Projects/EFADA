@@ -39,16 +39,12 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
       getBooleanValue('isLogged').then((value) {
         if (value) {
           final SystemController _systemController =
-              Get.put(SystemController());
+          Get.put(SystemController());
           _systemController.getSystemSettings();
           Utils.getStringValue('rule').then((rule) {
             Utils.getStringValue('zoom').then((zoom) {
               AppFunction.getFunctions(context, rule, zoom);
             });
-
-
-
-
           });
         } else {
           if (mounted) {
@@ -72,14 +68,35 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
       child: Scaffold(
         body: Stack(
           children: <Widget>[
+            Positioned.fill(
+              child: Container(
+                height: MediaQuery.of(context).size.height,
+                width: MediaQuery.of(context).size.width,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage(AppConfig.splashScreenBackground),
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ),
             Align(
-              alignment: Alignment.center,
+              alignment: Alignment.topCenter,
               child: Container(
                 height: MediaQuery.of(context).size.height / 2,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 20.0),
+                      child: Text(
+                        'Welcome to'.tr,
+                        style: Get.textTheme.subtitle1.copyWith(
+                          fontSize: 20,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
                     AnimatedBuilder(
                       animation: animation,
                       builder: (context, child) {
@@ -94,7 +111,16 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
                         );
                       },
                     ),
-
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 60.0),
+                      child: Text(
+                        '${AppConfig.appName}',
+                        style: Get.textTheme.subtitle1.copyWith(
+                          fontSize: 18,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -103,7 +129,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
               alignment: Alignment.bottomCenter,
               child: Padding(
                 padding:
-                    const EdgeInsets.only(bottom: 80.0, left: 40, right: 40),
+                const EdgeInsets.only(bottom: 80.0, left: 40, right: 40),
                 child: Container(
                   alignment: Alignment.bottomCenter,
                   child: LinearProgressIndicator(
