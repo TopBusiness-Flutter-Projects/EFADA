@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 
 // Project imports:
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/exception/DioException.dart';
-import 'package:infixedu/utils/model/AdminFees.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/exception/DioException.dart';
+import 'package:efada/utils/model/AdminFees.dart';
 import 'Line.dart';
 
 // ignore: must_be_immutable

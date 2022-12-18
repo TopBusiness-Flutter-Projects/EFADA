@@ -9,11 +9,11 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/BookIssued.dart';
-import 'package:infixedu/utils/widget/BookIssuedRow.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/BookIssued.dart';
+import 'package:efada/utils/widget/BookIssuedRow.dart';
 
 // ignore: must_be_immutable
 class BookIssuedScreen extends StatefulWidget {

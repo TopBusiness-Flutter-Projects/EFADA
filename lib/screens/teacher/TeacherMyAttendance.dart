@@ -10,11 +10,11 @@ import 'package:flutter_calendar_carousel/flutter_calendar_carousel.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/StudentAttendance.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/FunctinsData.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/StudentAttendance.dart';
 
 class TeacherAttendanceScreen extends StatefulWidget {
   @override

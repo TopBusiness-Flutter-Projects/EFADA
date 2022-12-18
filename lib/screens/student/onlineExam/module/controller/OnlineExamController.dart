@@ -3,11 +3,11 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/controller/user_controller.dart';
-import 'package:infixedu/screens/student/onlineExam/module/controller/ExamController.dart';
-import 'package:infixedu/screens/student/onlineExam/module/model/TakeExamModel.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
+import 'package:efada/controller/user_controller.dart';
+import 'package:efada/screens/student/onlineExam/module/controller/ExamController.dart';
+import 'package:efada/screens/student/onlineExam/module/model/TakeExamModel.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
 import 'package:http/http.dart' as http;
 
 class OnlineExamController extends GetxController

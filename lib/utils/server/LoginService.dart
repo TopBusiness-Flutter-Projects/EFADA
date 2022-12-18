@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:dio/dio.dart' as DIO;
 import 'package:get/get.dart';
-import 'package:infixedu/controller/system_controller.dart';
+import 'package:efada/controller/system_controller.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // Project imports:
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/exception/DioException.dart';
+import 'package:efada/utils/FunctinsData.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/exception/DioException.dart';
 
 class Login {
   final String email;

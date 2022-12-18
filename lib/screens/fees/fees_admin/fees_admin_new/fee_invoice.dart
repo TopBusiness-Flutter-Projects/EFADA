@@ -4,14 +4,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/fees/fees_admin/fees_admin_new/fee_transactions_view.dart';
-import 'package:infixedu/screens/fees/fees_admin/fees_admin_new/fees_invoice_view.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/screens/fees/model/FeesRecord.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/screens/fees/fees_admin/fees_admin_new/fee_transactions_view.dart';
+import 'package:efada/screens/fees/fees_admin/fees_admin_new/fees_invoice_view.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/screens/fees/model/FeesRecord.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/utils/widget/custom_search_delegate.dart';
+import 'package:efada/utils/widget/custom_search_delegate.dart';
 
 class FeesInvoiceScreen extends StatefulWidget {
   @override

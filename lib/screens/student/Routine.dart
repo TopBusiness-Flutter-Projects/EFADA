@@ -2,9 +2,9 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/widget/Routine_row.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/FunctinsData.dart';
+import 'package:efada/utils/widget/Routine_row.dart';
 
 // ignore: must_be_immutable
 class Routine extends StatelessWidget {

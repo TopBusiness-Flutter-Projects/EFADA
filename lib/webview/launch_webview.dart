@@ -10,7 +10,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
+import 'package:efada/config/app_config.dart';
 
 class LaunchWebView extends StatefulWidget {
   final String launchUrl;

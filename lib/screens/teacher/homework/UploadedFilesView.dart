@@ -6,12 +6,12 @@ import 'package:extended_image/extended_image.dart';
 import 'package:pdf_flutter/pdf_flutter.dart';
 
 // Project imports:
-import 'package:infixedu/screens/student/studyMaterials/StudyMaterialViewer.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/widget/Line.dart';
+import 'package:efada/screens/student/studyMaterials/StudyMaterialViewer.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/widget/Line.dart';
 
-// import 'package:infixedu/utils/pdf_flutter.dart';
+// import 'package:efada/utils/pdf_flutter.dart';
 
 class UploadedFilesView extends StatefulWidget {
   UploadedFilesView({this.files, this.fileName});

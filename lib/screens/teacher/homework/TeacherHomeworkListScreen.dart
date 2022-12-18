@@ -9,11 +9,11 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/StudentHomework.dart';
-import 'package:infixedu/utils/widget/TeacherHomeworkRow.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/StudentHomework.dart';
+import 'package:efada/utils/widget/TeacherHomeworkRow.dart';
 
 class TeacherHomework extends StatefulWidget {
   @override

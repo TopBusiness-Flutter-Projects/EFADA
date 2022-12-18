@@ -14,10 +14,10 @@ import 'package:open_file/open_file.dart';
 import 'package:path_provider/path_provider.dart';
 
 // Project imports:
-import 'package:infixedu/screens/student/studyMaterials/StudyMaterialViewer.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/HomeworkEvaluation.dart';
-import 'package:infixedu/utils/permission_check.dart';
+import 'package:efada/screens/student/studyMaterials/StudyMaterialViewer.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/HomeworkEvaluation.dart';
+import 'package:efada/utils/permission_check.dart';
 import '../FunctinsData.dart';
 import '../Utils.dart';
 import 'ScaleRoute.dart';

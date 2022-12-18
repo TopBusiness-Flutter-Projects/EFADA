@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:infixedu/utils/Utils.dart';
+import 'package:efada/utils/Utils.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
 class DBStudentQrCode extends StatefulWidget {

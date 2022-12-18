@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/language/language_selection.dart';
-import 'package:infixedu/language/translation.dart';
+import 'package:efada/language/language_selection.dart';
+import 'package:efada/language/translation.dart';
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/widget/Line.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/widget/Line.dart';
+import 'package:efada/utils/widget/ScaleRoute.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../main.dart';
 import 'ChangePassword.dart';

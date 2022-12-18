@@ -8,12 +8,12 @@ import 'package:dio/dio.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/exception/DioException.dart';
-import 'package:infixedu/utils/model/AdminDormitory.dart';
-import 'package:infixedu/utils/model/RoomType.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/exception/DioException.dart';
+import 'package:efada/utils/model/AdminDormitory.dart';
+import 'package:efada/utils/model/RoomType.dart';
 
 class AddDormitory extends StatefulWidget {
   @override

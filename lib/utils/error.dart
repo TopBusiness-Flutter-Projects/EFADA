@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
+import 'package:efada/config/app_config.dart';
 
 class ErrorPage extends StatefulWidget {
 

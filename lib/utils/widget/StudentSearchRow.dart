@@ -1,12 +1,12 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
-import 'package:infixedu/config/app_config.dart';
+import 'package:efada/config/app_config.dart';
 
 // Project imports:
-import 'package:infixedu/screens/student/Profile.dart';
-import 'package:infixedu/screens/student/StudentAttendance.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/Student.dart';
+import 'package:efada/screens/student/Profile.dart';
+import 'package:efada/screens/student/StudentAttendance.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/Student.dart';
 import 'ScaleRoute.dart';
 
 // ignore: must_be_immutable

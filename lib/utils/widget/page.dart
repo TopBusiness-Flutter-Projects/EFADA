@@ -5,11 +5,11 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_portal/flutter_portal.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/language/language_selection.dart';
-import 'package:infixedu/language/translation.dart';
-import 'package:infixedu/utils/widget/cc.dart';
-import 'package:infixedu/screens/SplashScreen.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/language/language_selection.dart';
+import 'package:efada/language/translation.dart';
+import 'package:efada/utils/widget/cc.dart';
+import 'package:efada/screens/SplashScreen.dart';
 
 import '../../main.dart';
 import '../Utils.dart';

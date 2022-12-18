@@ -8,16 +8,16 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/controller/user_controller.dart';
+import 'package:efada/controller/user_controller.dart';
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/StudentRecordWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/StudentRecord.dart';
-import 'package:infixedu/utils/model/Subject.dart';
-import 'package:infixedu/utils/widget/SubjectRowLayout.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/StudentRecordWidget.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/StudentRecord.dart';
+import 'package:efada/utils/model/Subject.dart';
+import 'package:efada/utils/widget/SubjectRowLayout.dart';
 
 // ignore: must_be_immutable
 class SubjectScreen extends StatefulWidget {

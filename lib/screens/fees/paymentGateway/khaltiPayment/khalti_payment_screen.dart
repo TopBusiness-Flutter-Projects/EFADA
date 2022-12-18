@@ -10,9 +10,9 @@ import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/fees/controller/student_fees_controller.dart';
-import 'package:infixedu/utils/Utils.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/screens/fees/controller/student_fees_controller.dart';
+import 'package:efada/utils/Utils.dart';
 import 'package:khalti/khalti.dart';
 
 class KhaltiInvoicePayment extends StatelessWidget {

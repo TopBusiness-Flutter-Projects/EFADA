@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/utils/apis/Apis.dart';
+import 'package:efada/utils/apis/Apis.dart';
 
 class CustomController extends GetxController {
   var isLoading = false.obs;

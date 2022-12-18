@@ -2,10 +2,10 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:infixedu/screens/admin/Bloc/LeaveListBloc.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/model/LeaveAdmin.dart';
-import 'package:infixedu/utils/widget/LeaveRowLayout.dart';
+import 'package:efada/screens/admin/Bloc/LeaveListBloc.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/model/LeaveAdmin.dart';
+import 'package:efada/utils/widget/LeaveRowLayout.dart';
 
 // ignore: must_be_immutable
 class AdminLeavePage extends StatefulWidget {

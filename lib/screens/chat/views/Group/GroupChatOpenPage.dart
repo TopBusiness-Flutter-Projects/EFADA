@@ -8,22 +8,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/chat/controller/chat_controller.dart';
-import 'package:infixedu/screens/chat/controller/chat_group_open_controller.dart';
-import 'package:infixedu/screens/chat/controller/pusher_controller.dart';
-import 'package:infixedu/screens/chat/views/Group/ChatGroupLoadMore.dart';
-import 'package:infixedu/screens/chat/views/FilePreview/ChatFilesPage.dart';
-import 'package:infixedu/screens/chat/views/Group/GroupMessageWidget.dart';
-import 'package:infixedu/utils/CustomSnackBars.dart';
-import 'package:infixedu/utils/LoadMoreIndicator.dart';
-import 'package:infixedu/utils/MediaUtils.dart';
-import 'package:infixedu/utils/Utils.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/screens/chat/controller/chat_controller.dart';
+import 'package:efada/screens/chat/controller/chat_group_open_controller.dart';
+import 'package:efada/screens/chat/controller/pusher_controller.dart';
+import 'package:efada/screens/chat/views/Group/ChatGroupLoadMore.dart';
+import 'package:efada/screens/chat/views/FilePreview/ChatFilesPage.dart';
+import 'package:efada/screens/chat/views/Group/GroupMessageWidget.dart';
+import 'package:efada/utils/CustomSnackBars.dart';
+import 'package:efada/utils/LoadMoreIndicator.dart';
+import 'package:efada/utils/MediaUtils.dart';
+import 'package:efada/utils/Utils.dart';
 
-import 'package:infixedu/screens/chat/models/ChatGroup.dart';
+import 'package:efada/screens/chat/models/ChatGroup.dart';
 
-import 'package:infixedu/screens/chat/models/GroupThread.dart';
-import 'package:infixedu/screens/chat/models/ChatUser.dart';
+import 'package:efada/screens/chat/models/GroupThread.dart';
+import 'package:efada/screens/chat/models/ChatUser.dart';
 import 'package:let_log/let_log.dart';
 
 import 'package:loading_more_list/loading_more_list.dart';

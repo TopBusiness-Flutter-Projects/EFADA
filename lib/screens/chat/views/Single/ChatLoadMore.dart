@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart' as GETx;
-import 'package:infixedu/screens/chat/controller/chat_open_controller.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/screens/chat/models/ChatMessage.dart';
-import 'package:infixedu/screens/chat/models/ChatMessageOpenModel.dart';
+import 'package:efada/screens/chat/controller/chat_open_controller.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/screens/chat/models/ChatMessage.dart';
+import 'package:efada/screens/chat/models/ChatMessageOpenModel.dart';
 import 'package:let_log/let_log.dart';
 import 'package:loading_more_list/loading_more_list.dart';
 

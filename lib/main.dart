@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:infixedu/config/app_config.dart';
+import 'package:efada/config/app_config.dart';
 import 'package:khalti/khalti.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'utils/widget/page.dart';

@@ -1,8 +1,8 @@
 class AppConfig {
   static String domainName =
-      'https://lms-deltaschools.com'; //** Replace with your domain name
+      'https://efada-center.com'; //** Replace with your domain name
 
-  static String appName = "InfixEdu";
+  static String appName = "efada";
 
   static String appLogo = 'assets/config/app_logo.png';
 

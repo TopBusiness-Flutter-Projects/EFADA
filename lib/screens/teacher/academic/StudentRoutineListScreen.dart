@@ -5,14 +5,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
+import 'package:efada/config/app_config.dart';
 
 // Project imports:
 
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/DayWiseRoutine.dart';
-import 'package:infixedu/utils/server/LogoutService.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/DayWiseRoutine.dart';
+import 'package:efada/utils/server/LogoutService.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 

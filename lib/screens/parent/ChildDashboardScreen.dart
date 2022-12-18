@@ -6,11 +6,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
+import 'package:efada/config/app_config.dart';
 
-import 'package:infixedu/utils/CardItem.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/server/LogoutService.dart';
+import 'package:efada/utils/CardItem.dart';
+import 'package:efada/utils/FunctinsData.dart';
+import 'package:efada/utils/server/LogoutService.dart';
 
 // ignore: must_be_immutable
 class ChildHome extends StatefulWidget {

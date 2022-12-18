@@ -4,13 +4,13 @@ import 'dart:developer';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/Classes.dart';
-import 'package:infixedu/screens/fees/model/FeesBankPaymet.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/Classes.dart';
+import 'package:efada/screens/fees/model/FeesBankPaymet.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/utils/model/Section.dart';
+import 'package:efada/utils/model/Section.dart';
 import 'package:intl/intl.dart';
 
 class FeeBankPaymentSearch extends StatefulWidget {

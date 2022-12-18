@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/screens/chat/controller/chat_controller.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/screens/chat/models/ChatGroupOpenModel.dart';
-import 'package:infixedu/screens/chat/models/GroupThread.dart';
+import 'package:efada/screens/chat/controller/chat_controller.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/screens/chat/models/ChatGroupOpenModel.dart';
+import 'package:efada/screens/chat/models/GroupThread.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/screens/chat/models/ChatUser.dart';
+import 'package:efada/screens/chat/models/ChatUser.dart';
 import 'package:let_log/let_log.dart';
 
 class ChatGroupOpenController extends GetxController {

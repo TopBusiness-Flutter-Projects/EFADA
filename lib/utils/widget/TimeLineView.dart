@@ -10,11 +10,11 @@ import 'package:file_utils/file_utils.dart';
 import 'package:path_provider/path_provider.dart';
 
 // Project imports:
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/Timeline.dart';
-import 'package:infixedu/utils/permission_check.dart';
+import 'package:efada/utils/FunctinsData.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/Timeline.dart';
+import 'package:efada/utils/permission_check.dart';
 
 // ignore: must_be_immutable
 class TimeLineView extends StatelessWidget {

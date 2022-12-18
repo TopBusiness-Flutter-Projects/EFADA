@@ -3,16 +3,16 @@ import 'dart:async';
 
 // Flutter imports:
 import 'package:flutter/material.dart';
-import 'package:infixedu/controller/system_controller.dart';
+import 'package:efada/controller/system_controller.dart';
 
 // Package imports:
 import 'package:shared_preferences/shared_preferences.dart';
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/Login.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/screens/Login.dart';
+import 'package:efada/utils/FunctinsData.dart';
+import 'package:efada/utils/Utils.dart';
 import 'package:get/get.dart';
 
 class Splash extends StatefulWidget {

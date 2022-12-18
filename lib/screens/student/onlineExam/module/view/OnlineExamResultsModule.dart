@@ -4,12 +4,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/controller/user_controller.dart';
-import 'package:infixedu/screens/student/onlineExam/module/model/OnlineExamResultModel.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/StudentRecord.dart';
+import 'package:efada/controller/user_controller.dart';
+import 'package:efada/screens/student/onlineExam/module/model/OnlineExamResultModel.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/StudentRecord.dart';
 import 'package:http/http.dart' as http;
 
 class OnlineExamResults extends StatefulWidget {

@@ -15,14 +15,14 @@ import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/exception/DioException.dart';
-import 'package:infixedu/utils/model/Classes.dart';
-import 'package:infixedu/utils/model/Section.dart';
-import 'package:infixedu/utils/model/TeacherSubject.dart';
-import 'package:infixedu/utils/permission_check.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/exception/DioException.dart';
+import 'package:efada/utils/model/Classes.dart';
+import 'package:efada/utils/model/Section.dart';
+import 'package:efada/utils/model/TeacherSubject.dart';
+import 'package:efada/utils/permission_check.dart';
 
 class AddContentScreeen extends StatefulWidget {
   @override

@@ -6,12 +6,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/utils/server/LogoutService.dart';
+import 'package:efada/utils/server/LogoutService.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/controller/notification_controller.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/controller/notification_controller.dart';
 
 class NotificationScreen extends StatefulWidget {
   final String id;

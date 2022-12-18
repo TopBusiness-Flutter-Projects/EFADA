@@ -3,16 +3,16 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/chat/controller/chat_controller.dart';
-import 'package:infixedu/screens/chat/views/BlockedUserPage.dart';
-import 'package:infixedu/screens/chat/views/Single/ChatOpenPage.dart';
-import 'package:infixedu/screens/chat/views/ChatPeopleSearchPage.dart';
-import 'package:infixedu/screens/chat/views/Group/CreateGroupPage.dart';
-import 'package:infixedu/screens/chat/views/Group/GroupChatOpenPage.dart';
-import 'package:infixedu/screens/chat/models/ChatActiveStatus.dart';
-import 'package:infixedu/screens/chat/models/ChatGroup.dart';
-import 'package:infixedu/screens/chat/models/ChatUser.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/screens/chat/controller/chat_controller.dart';
+import 'package:efada/screens/chat/views/BlockedUserPage.dart';
+import 'package:efada/screens/chat/views/Single/ChatOpenPage.dart';
+import 'package:efada/screens/chat/views/ChatPeopleSearchPage.dart';
+import 'package:efada/screens/chat/views/Group/CreateGroupPage.dart';
+import 'package:efada/screens/chat/views/Group/GroupChatOpenPage.dart';
+import 'package:efada/screens/chat/models/ChatActiveStatus.dart';
+import 'package:efada/screens/chat/models/ChatGroup.dart';
+import 'package:efada/screens/chat/models/ChatUser.dart';
 import 'package:shimmer/shimmer.dart';
 
 EdgeInsetsGeometry customPadding =

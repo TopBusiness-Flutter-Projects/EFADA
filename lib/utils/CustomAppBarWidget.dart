@@ -11,18 +11,18 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/utils/server/LogoutService.dart';
+import 'package:efada/utils/server/LogoutService.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/main.dart';
-import 'package:infixedu/screens/ChangePassword.dart';
-import 'package:infixedu/screens/student/Profile.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/UserNotifications.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/main.dart';
+import 'package:efada/screens/ChangePassword.dart';
+import 'package:efada/screens/student/Profile.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/UserNotifications.dart';
+import 'package:efada/utils/widget/ScaleRoute.dart';
 
 // ignore: must_be_immutable
 class CustomAppBarWidget extends StatefulWidget implements PreferredSizeWidget {

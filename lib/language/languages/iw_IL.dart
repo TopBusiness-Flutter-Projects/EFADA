@@ -1,6 +1,6 @@
 const Map<String, String> iw_IL = {
   "Welcome to": "ברוך הבא ל",
-  "InfixEdu": "InfixEdu",
+  "efada": "Efada",
   "Students": "סטודנטים",
   "Leave": "חופשות",
   "Staff": "צוות",

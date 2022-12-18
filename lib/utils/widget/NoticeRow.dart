@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 // Project imports:
-import 'package:infixedu/screens/student/notice/NoticeDetails.dart';
-import 'package:infixedu/utils/model/Notice.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+import 'package:efada/screens/student/notice/NoticeDetails.dart';
+import 'package:efada/utils/model/Notice.dart';
+import 'package:efada/utils/widget/ScaleRoute.dart';
 
 // ignore: must_be_immutable
 class NoticRowLayout extends StatefulWidget {

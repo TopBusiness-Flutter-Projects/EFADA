@@ -2,13 +2,13 @@
 import 'dart:convert';
 
 // Package imports:
-import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/UserNotifications.dart';
+import 'package:get/get.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/UserNotifications.dart';
 
 class NotificationController extends GetxController {
   Rx<String> _token = "".obs;

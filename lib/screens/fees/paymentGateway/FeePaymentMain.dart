@@ -14,23 +14,23 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/fees/paymentGateway/RazorPay/razorpay_service.dart';
-import 'package:infixedu/screens/fees/paymentGateway/paypal/paypal_payment.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/exception/DioException.dart';
-import 'package:infixedu/utils/model/Bank.dart';
-import 'package:infixedu/screens/fees/model/Fee.dart';
-import 'package:infixedu/utils/model/PaymentMethod.dart';
-import 'package:infixedu/utils/model/UserDetails.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
-import 'package:infixedu/screens/fees/widgets/fees_payment_row_widget.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/screens/fees/paymentGateway/RazorPay/razorpay_service.dart';
+import 'package:efada/screens/fees/paymentGateway/paypal/paypal_payment.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/exception/DioException.dart';
+import 'package:efada/utils/model/Bank.dart';
+import 'package:efada/screens/fees/model/Fee.dart';
+import 'package:efada/utils/model/PaymentMethod.dart';
+import 'package:efada/utils/model/UserDetails.dart';
+import 'package:efada/utils/widget/ScaleRoute.dart';
+import 'package:efada/screens/fees/widgets/fees_payment_row_widget.dart';
 import 'khalti/KhaltiPaymentScreen.dart';
 import 'xendit/XenditScreen.dart';
 
-import 'package:infixedu/screens/fees/paymentGateway/stripe/stripe_payment.dart'
+import 'package:efada/screens/fees/paymentGateway/stripe/stripe_payment.dart'
     as StripePage;
 // import 'package:flutter_stripe/flutter_stripe.dart' as FlutterStripe;
 

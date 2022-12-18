@@ -13,20 +13,20 @@ import 'package:file_utils/file_utils.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/utils/model/StudentDetailsModel.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/utils/model/StudentDetailsModel.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // Project imports:
-import 'package:infixedu/screens/student/studyMaterials/StudyMaterialViewer.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/server/ProfileService.dart';
-import 'package:infixedu/utils/widget/ProfileListRow.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+import 'package:efada/screens/student/studyMaterials/StudyMaterialViewer.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/FunctinsData.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/server/ProfileService.dart';
+import 'package:efada/utils/widget/ProfileListRow.dart';
+import 'package:efada/utils/widget/ScaleRoute.dart';
 
 class Profile extends StatefulWidget {
   final String id;

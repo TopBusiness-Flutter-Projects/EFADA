@@ -2,7 +2,7 @@
 //
 // import 'package:flutter/foundation.dart';
 // import 'package:flutter/material.dart';
-// import 'package:infixedu/utils/CustomAppBarWidget.dart';
+// import 'package:efada/utils/CustomAppBarWidget.dart';
 // import 'package:jitsi_meet/jitsi_meet.dart';
 //
 // class JitsiMeetClass extends StatefulWidget {

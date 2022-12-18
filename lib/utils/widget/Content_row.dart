@@ -16,13 +16,13 @@ import 'package:open_file/open_file.dart';
 import 'package:path_provider/path_provider.dart';
 
 // Project imports:
-import 'package:infixedu/screens/student/studyMaterials/StudyMaterialViewer.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/Content.dart';
-import 'package:infixedu/utils/permission_check.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+import 'package:efada/screens/student/studyMaterials/StudyMaterialViewer.dart';
+import 'package:efada/utils/FunctinsData.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
+import 'package:efada/utils/model/Content.dart';
+import 'package:efada/utils/permission_check.dart';
+import 'package:efada/utils/widget/ScaleRoute.dart';
 
 // ignore: must_be_immutable
 class ContentRow extends StatefulWidget {

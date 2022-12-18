@@ -3,9 +3,9 @@
 //
 //
 // // Project imports:
-// import 'package:infixedu/utils/CustomAppBarWidget.dart';
-// import 'package:infixedu/utils/model/Fee.dart';
-// import 'package:infixedu/utils/widget/buy_sheet.dart';
+// import 'package:efada/utils/CustomAppBarWidget.dart';
+// import 'package:efada/utils/model/Fee.dart';
+// import 'package:efada/utils/widget/buy_sheet.dart';
 //
 // class GooglePayScreen extends StatefulWidget {
 //   final Fee fee;

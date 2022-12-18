@@ -4,12 +4,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/chat/controller/chat_controller.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/screens/chat/models/ChatActiveStatus.dart';
-import 'package:infixedu/screens/chat/models/ChatUser.dart';
-import 'package:infixedu/screens/chat/views/Single/ChatOpenPage.dart';
+import 'package:efada/config/app_config.dart';
+import 'package:efada/screens/chat/controller/chat_controller.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/screens/chat/models/ChatActiveStatus.dart';
+import 'package:efada/screens/chat/models/ChatUser.dart';
+import 'package:efada/screens/chat/views/Single/ChatOpenPage.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
 class ChatPeopleSearchPage extends StatefulWidget {

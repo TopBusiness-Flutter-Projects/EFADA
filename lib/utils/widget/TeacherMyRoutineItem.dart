@@ -9,10 +9,10 @@
 // import 'package:http/http.dart' as http;
 
 // // Project imports:
-// import 'package:infixedu/utils/FunctinsData.dart';
-// import 'package:infixedu/utils/apis/Apis.dart';
-// import 'package:infixedu/utils/model/TeacherMyRoutine.dart';
-// import 'package:infixedu/utils/widget/ShimmerListWidget.dart';
+// import 'package:efada/utils/FunctinsData.dart';
+// import 'package:efada/utils/apis/Apis.dart';
+// import 'package:efada/utils/model/TeacherMyRoutine.dart';
+// import 'package:efada/utils/widget/ShimmerListWidget.dart';
 // import '../Utils.dart';
 // import 'RoutineRowWidget.dart';
 

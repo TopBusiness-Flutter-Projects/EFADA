@@ -1,10 +1,10 @@
 import 'dart:convert';
 
 import 'package:get/get.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/screens/chat/models/ChatFilesModel.dart';
+import 'package:efada/screens/chat/models/ChatFilesModel.dart';
 import 'package:let_log/let_log.dart';
 
 class ChatFilesController extends GetxController {

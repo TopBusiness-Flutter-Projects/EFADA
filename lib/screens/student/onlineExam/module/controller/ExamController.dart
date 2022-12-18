@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:get/get.dart';
-import 'package:infixedu/controller/user_controller.dart';
-import 'package:infixedu/screens/student/onlineExam/module/model/ActiveOnlineModel.dart';
+import 'package:efada/controller/user_controller.dart';
+import 'package:efada/screens/student/onlineExam/module/model/ActiveOnlineModel.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/utils/apis/Apis.dart';
 
 class ExamController extends GetxController {
   final UserController _userController = Get.put(UserController());

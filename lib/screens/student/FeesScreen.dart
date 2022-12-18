@@ -6,12 +6,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/screens/fees/model/Fee.dart';
-import 'package:infixedu/screens/fees/services/FeesService.dart';
-import 'package:infixedu/screens/fees/widgets/Fees_row_layout.dart';
-import 'package:infixedu/utils/widget/ShimmerListWidget.dart';
+import 'package:efada/utils/CustomAppBarWidget.dart';
+import 'package:efada/utils/Utils.dart';
+import 'package:efada/screens/fees/model/Fee.dart';
+import 'package:efada/screens/fees/services/FeesService.dart';
+import 'package:efada/screens/fees/widgets/Fees_row_layout.dart';
+import 'package:efada/utils/widget/ShimmerListWidget.dart';
 
 // ignore: must_be_immutable
 class FeeScreen extends StatefulWidget {

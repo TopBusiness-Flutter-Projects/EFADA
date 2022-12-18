@@ -8,7 +8,7 @@ import Firebase
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-  GMSServices.provideAPIKey("AIzaSyASiLd0J-M3XswMCiyxTm5WaHSw0HNc-t0")
+  GMSServices.provideAPIKey("")
   FirebaseApp.configure()
     var flutter_native_splash = 1
     UIApplication.shared.isStatusBarHidden = false
