@@ -102,6 +102,9 @@ class _LeaveListStudentState extends State<LeaveListStudent> {
                   future: myLeaves,
                   builder: (context, snapshot) {
                     if (snapshot.hasData) {
+                      if (snapshot.data.studentMyLeave.length < 1) {
+                        return Utils.noDataWidget();
+                      }else{
                       return Container(
                         child: ListView.builder(
                             shrinkWrap: true,
@@ -138,7 +141,7 @@ class _LeaveListStudentState extends State<LeaveListStudent> {
                                 ),
                               );
                             }),
-                      );
+                      );}
                     } else {
                       return Center(child: CupertinoActivityIndicator());
                     }

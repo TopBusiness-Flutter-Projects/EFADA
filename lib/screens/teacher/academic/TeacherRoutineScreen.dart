@@ -165,7 +165,9 @@ class _TeacherMyRoutineScreenState extends State<TeacherMyRoutineScreen> {
                                 );
                         });
                   } else {
-                    return Text("");
+
+                      return Utils.noDataWidget();
+
                   }
                 } else {
                   return Center(

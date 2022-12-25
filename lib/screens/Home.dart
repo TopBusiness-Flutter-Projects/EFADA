@@ -340,6 +340,11 @@ class _HomeState extends State<Home> {
                     size: 25.sp,
                   ),
                 ),
+          Transform.rotate(
+            angle: Localizations.localeOf(context).languageCode == 'en'
+                ? 0
+                : 3.14,
+            child:
                 IconButton(
                   onPressed: () {
                     Get.dialog(LogoutService().logoutDialog());
@@ -348,7 +353,7 @@ class _HomeState extends State<Home> {
                     Icons.exit_to_app,
                     size: 25.sp,
                   ),
-                ),
+                )),
               ],
             ),
           ),
@@ -718,10 +723,10 @@ class _HomeState extends State<Home> {
     );
     AlertDialog alert = AlertDialog(
       title: Text(
-        "Logout",
+        "Logout".tr,
         style: Theme.of(context).textTheme.headline5,
       ),
-      content: Text("Would you like to logout?"),
+      content: Text("Would you like to logout?".tr),
       actions: [
         cancelButton,
         yesButton,
@@ -807,7 +812,7 @@ class _HomeState extends State<Home> {
                             InkWell(
                               child: SizedBox(
                                 child: Text(
-                                  "Logout",
+                                  "Logout".tr,
                                   textAlign: TextAlign.end,
                                   style: Theme.of(context).textTheme.headline5,
                                 ),
@@ -881,7 +886,7 @@ class _HomeState extends State<Home> {
                           ),
                           GestureDetector(
                             child: Text(
-                              "Logout",
+                              "Logout".tr,
                               textAlign: TextAlign.end,
                               style: Theme.of(context).textTheme.headline5,
                             ),

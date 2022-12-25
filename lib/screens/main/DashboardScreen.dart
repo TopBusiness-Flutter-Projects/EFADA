@@ -79,10 +79,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
     // set up the AlertDialog
     AlertDialog alert = AlertDialog(
       title: Text(
-        "Logout",
+        "Logout".tr,
         style: Theme.of(context).textTheme.headline5,
       ),
-      content: Text("Would you like to logout?"),
+      content: Text("Would you like to logout?".tr),
       actions: [
         cancelButton,
         yesButton,

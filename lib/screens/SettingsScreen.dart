@@ -248,6 +248,7 @@ class _SettingScreenState extends State<SettingScreen> {
                                 languageController.langName.value =
                                     LanguageSelection.instance.langName;
                               });
+                              Navigator.pop(context);
                             },
                             child: Text(
                               languages[index].languageText,

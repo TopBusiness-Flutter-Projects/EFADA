@@ -74,6 +74,11 @@ class _StudentFeesOldState extends State<StudentFeesOld> {
                 SizedBox(
                   width: 5,
                 ),
+            Transform.rotate(
+              angle: Localizations.localeOf(context).languageCode == 'en'
+                  ? 0
+                  : 3.14,
+              child:
                 IconButton(
                   onPressed: () {
                     Get.dialog(LogoutService().logoutDialog());
@@ -82,7 +87,7 @@ class _StudentFeesOldState extends State<StudentFeesOld> {
                     Icons.exit_to_app,
                     size: 25.sp,
                   ),
-                ),
+                )),
               ],
             ),
           ),

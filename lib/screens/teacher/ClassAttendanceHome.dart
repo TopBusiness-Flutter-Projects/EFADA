@@ -65,7 +65,9 @@ class _StudentAttendanceHomeState extends State<StudentAttendanceHome> {
               day = getAbsoluteDate(date.day);
               classes = getAllClass(int.parse(_id));
               classes.then((value) {
-                _selectedClass = value.classes[0].name;
+                if(value.classes.length>0){
+
+                  _selectedClass = value.classes[0].name;
                 classId = value.classes[0].id;
                 sections = getAllSection(int.parse(_id), classId);
                 sections.then((sectionValue) {
@@ -73,7 +75,7 @@ class _StudentAttendanceHomeState extends State<StudentAttendanceHome> {
                   sectionId = sectionValue.sections[0].id;
                   url =
                       InfixApi.getStudentByClassAndSection(classId, sectionId);
-                });
+                });}
               });
             });
           });
@@ -105,7 +107,9 @@ class _StudentAttendanceHomeState extends State<StudentAttendanceHome> {
                         if (secSnap.hasData) {
                           return getSectionDropdown(secSnap.data.sections);
                         } else {
-                          return Center(child: CupertinoActivityIndicator());
+                          return Center(
+                          //    child: CupertinoActivityIndicator()
+                          );
                         }
                       },
                     ),

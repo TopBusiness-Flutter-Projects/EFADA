@@ -21,9 +21,9 @@ class Wallet {
 
   String currencySymbol;
   String myBalance;
-  List<PaymentMethod> paymentMethods;
-  List<BankAccount> bankAccounts;
-  List<WalletTransaction> walletTransactions;
+  List<PaymentMethod> paymentMethods=[];
+  List<BankAccount> bankAccounts=[];
+  List<WalletTransaction> walletTransactions=[];
   StripeInfo stripeInfo;
   dynamic razorpayInfo;
 
@@ -38,7 +38,7 @@ class Wallet {
             json["walletTransactions"]
                 .map((x) => WalletTransaction.fromJson(x))),
         stripeInfo: StripeInfo.fromJson(json["stripe_info"]),
-        razorpayInfo: json["razorpay_info"],
+        razorpayInfo: json["razorpay_info"]??null,
       );
 
   Map<String, dynamic> toJson() => {
@@ -156,11 +156,11 @@ class PaymentMethod {
         method: json["method"],
         type: json["type"],
         activeStatus: json["active_status"],
-        createdAt: DateTime.parse(json["created_at"]),
-        updatedAt: DateTime.parse(json["updated_at"]),
-        gatewayId: json["gateway_id"],
-        createdBy: json["created_by"],
-        updatedBy: json["updated_by"],
+        createdAt:json["created_at"]!=null? DateTime.parse(json["created_at"]):DateTime.now(),
+        updatedAt:json["updated_at"]!=null? DateTime.parse(json["updated_at"]):DateTime.now(),
+        gatewayId: json["gateway_id"]??"",
+        createdBy: json["created_by"]??"",
+        updatedBy: json["updated_by"]??"",
         schoolId: json["school_id"],
       );
 
@@ -169,7 +169,7 @@ class PaymentMethod {
         "method": method,
         "type": type,
         "active_status": activeStatus,
-        "created_at": createdAt.toIso8601String(),
+        "created_at":createdAt.toIso8601String(),
         "updated_at": updatedAt.toIso8601String(),
         "gateway_id": gatewayId,
         "created_by": createdBy,

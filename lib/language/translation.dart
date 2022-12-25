@@ -4,7 +4,6 @@ import '../../main.dart';
 import 'language_selection.dart';
 import 'languages/ar.dart';
 import 'languages/en_US.dart';
-import 'languages/iw_IL.dart';
 //......
 //**:: ADD/REMOVE LANGUAGE
 //.....
@@ -18,7 +17,7 @@ class LanguageController extends GetxController implements Translations {
   Map<String, Map<String, String>> get keys => {
         'en_US': en_US,
         'ar': ar,
-        'iw_IL': iw_IL,
+       // 'iw_IL': iw_IL,
         //......
         //**:: ADD/REMOVE LANGUAGE
         //.....
@@ -78,10 +77,10 @@ final List<LanguageModel> languages = [
     languageText: 'العربية',
     languageValue: 'ar',
   ),
-  LanguageModel(
-    languageText : 'עברית',
-    languageValue: 'iw_IL',
-  ),
+  // LanguageModel(
+  //   languageText : 'עברית',
+  //   languageValue: 'iw_IL',
+  // ),
   //......
   //**:: ADD/REMOVE LANGUAGE
   //.....

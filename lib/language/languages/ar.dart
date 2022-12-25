@@ -1,5 +1,7 @@
 const Map<String, String> ar = {
   "Welcome to": "مرحبا بك",
+  "yes": "نعم",
+  "cancel": "إلغاء",
   "efada": "إفاده",
   "Students": "الطلبة",
   "Leave": "الإجازات",

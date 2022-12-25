@@ -1,5 +1,7 @@
 const Map<String, String> en_US = {
   "Welcome to": "Welcome to",
+  "yes": "yes",
+  "cancel": "cancel",
   "efada": "Efada",
   "Students": "Students",
   "Leave": "Leave",

@@ -49,12 +49,15 @@ class _LeaveListScreenState extends State<LeaveListScreen> {
         future: leaves,
         builder: (context, snapshot) {
           if (snapshot.hasData && snapshot != null) {
+            if (snapshot.data.leaves.length < 1) {
+              return Utils.noDataWidget();
+            }else{
             return ListView.builder(
               itemCount: snapshot.data.leaves.length,
               itemBuilder: (context, index) {
                 return LeaveRow(snapshot.data.leaves[index]);
               },
-            );
+            );}
           } else {
             return Center(
               child: CupertinoActivityIndicator(),

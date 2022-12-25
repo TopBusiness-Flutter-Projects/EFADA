@@ -50,13 +50,14 @@ class _SearchRoutineScreenState extends State<SearchRoutineScreen> {
               rule = ruleValue;
               classes = getAllClass(int.parse(_id));
               classes.then((value) {
+                if(value.classes.length>0){
                 _selectedClass = value.classes[0].name;
                 classId = value.classes[0].id;
                 sections = getAllSection(int.parse(_id), classId);
                 sections.then((sectionValue) {
                   _selectedSection = sectionValue.sections[0].name;
                   sectionId = sectionValue.sections[0].id;
-                });
+                });}
               });
             });
           });
@@ -86,14 +87,18 @@ class _SearchRoutineScreenState extends State<SearchRoutineScreen> {
                         if (secSnap.hasData) {
                           return getSectionDropdown(secSnap.data.sections);
                         } else {
-                          return Center(child: CupertinoActivityIndicator());
+                          return Center(
+                             // child: CupertinoActivityIndicator()
+                          );
                         }
                       },
                     ),
                   ],
                 );
               } else {
-                return Center(child: CupertinoActivityIndicator());
+                return Center(
+                    child: CupertinoActivityIndicator()
+                );
               }
             },
           ),

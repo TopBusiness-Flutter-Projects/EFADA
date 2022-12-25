@@ -50,12 +50,17 @@ class _TeacherHomeworkState extends State<TeacherHomework> {
         future: homeworks,
         builder: (context, snapshot) {
           if (snapshot.hasData && snapshot != null) {
-            return ListView.builder(
-              itemCount: snapshot.data.homeworks.length,
-              itemBuilder: (context, index) {
-                return TeacherHomeworkRow(snapshot.data.homeworks[index]);
-              },
-            );
+            if (snapshot.data.homeworks.length < 1) {
+              return Utils.noDataWidget();
+            }
+            else {
+              return ListView.builder(
+                itemCount: snapshot.data.homeworks.length,
+                itemBuilder: (context, index) {
+                  return TeacherHomeworkRow(snapshot.data.homeworks[index]);
+                },
+              );
+            }
           } else {
             return Center(
               child: CupertinoActivityIndicator(),

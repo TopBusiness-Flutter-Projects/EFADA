@@ -86,7 +86,9 @@ class _AddHomeworkScrrenState extends State<AddHomeworkScrren> {
               rule = ruleValue;
               classes = getAllClass(int.parse(_id));
               classes.then((value) {
-                _selectedClass = value.classes[0].name;
+                if(value.classes.length>0){
+
+                  _selectedClass = value.classes[0].name;
                 classId = value.classes[0].id;
                 sections = getAllSection(int.parse(_id), classId);
                 sections.then((sectionValue) {
@@ -101,7 +103,7 @@ class _AddHomeworkScrrenState extends State<AddHomeworkScrren> {
                     });
                   });
                 });
-              });
+              }});
             });
           });
         });
@@ -182,7 +184,9 @@ class _AddHomeworkScrrenState extends State<AddHomeworkScrren> {
                           if (secSnap.hasData) {
                             return getSectionDropdown(secSnap.data.sections);
                           } else {
-                            return Center(child: CupertinoActivityIndicator());
+                            return Center(
+                              //  child: CupertinoActivityIndicator()
+                            );
                           }
                         },
                       ),
@@ -195,7 +199,9 @@ class _AddHomeworkScrrenState extends State<AddHomeworkScrren> {
                           if (subSnap.hasData) {
                             return getSubjectDropdown(subSnap.data.subjects);
                           } else {
-                            return Center(child: CupertinoActivityIndicator());
+                            return Center(
+                            //    child: CupertinoActivityIndicator()
+                            );
                           }
                         },
                       ),

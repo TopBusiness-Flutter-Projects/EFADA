@@ -17,7 +17,7 @@ class LogoutService {
     // set up the buttons
     Widget cancelButton = TextButton(
       child: Text(
-        "Cancel",
+        "Cancel".tr,
         style: Get.textTheme.headline5.copyWith(
           fontSize: 12.sp,
           color: Colors.red,
@@ -29,7 +29,7 @@ class LogoutService {
     );
     Widget yesButton = TextButton(
       child: Text(
-        "Yes",
+        "Yes".tr,
         style: Get.textTheme.headline5.copyWith(
           fontSize: ScreenUtil().setSp(12),
           color: Colors.green,
@@ -55,10 +55,10 @@ class LogoutService {
     // set up the AlertDialog
     AlertDialog alert = AlertDialog(
       title: Text(
-        "Logout",
+        "Logout".tr,
         style: Get.textTheme.headline5,
       ),
-      content: Text("Would you like to logout?"),
+      content: Text("Would you like to logout?".tr),
       actions: [
         cancelButton,
         yesButton,

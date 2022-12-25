@@ -53,7 +53,7 @@ class _AboutScreenState extends State<AboutScreen> {
         if (snapshot.hasData) {
           return Padding(
             padding: EdgeInsets.symmetric(horizontal: 15.w, vertical: 10.h),
-            child: Column(
+            child: ListView(
               children: <Widget>[
                 ListTile(
                   leading: CachedNetworkImage(

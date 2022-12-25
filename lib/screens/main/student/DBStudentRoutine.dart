@@ -111,15 +111,20 @@ class _DBStudentRoutineState extends State<DBStudentRoutine> {
                 SizedBox(
                   width: 5,
                 ),
-                IconButton(
-                  onPressed: () {
-                    Get.dialog(LogoutService().logoutDialog());
-                  },
-                  icon: Icon(
-                    Icons.exit_to_app,
-                    size: 25.sp,
-                  ),
-                ),
+                Transform.rotate(
+                    angle: Localizations.localeOf(context).languageCode == 'en'
+                        ? 0
+                        : 3.14,
+                    child:
+                    IconButton(
+                      onPressed: () {
+                        Get.dialog(LogoutService().logoutDialog());
+                      },
+                      icon: Icon(
+                        Icons.exit_to_app,
+                        size: 25.sp,
+                      ),
+                    )),
               ],
             ),
           ),
