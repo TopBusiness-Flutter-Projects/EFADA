@@ -100,7 +100,7 @@ class AppFunction {
     'Subjects',
     'Teacher',
     'Library',
-    'Transport',
+   // 'Transport',
     'Dormitory',
     'Settings',
   ];
@@ -118,7 +118,7 @@ class AppFunction {
     'assets/images/subjects.png',
     'assets/images/teacher.png',
     'assets/images/library.png',
-    'assets/images/transport.png',
+   // 'assets/images/transport.png',
     'assets/images/dormitory.png',
     'assets/images/addhw.png',
   ];
@@ -203,13 +203,13 @@ class AppFunction {
     'Route',
     'Vehicle',
     'Assign Vehicle',
-    'Transport',
+    //'Transport',
   ];
   static var adminTransportIcons = [
     'assets/images/transport.png',
     'assets/images/transport.png',
     'assets/images/addhw.png',
-    'assets/images/transport.png',
+    //'assets/images/transport.png',
   ];
 
   static var adminDormitory = [
@@ -469,9 +469,9 @@ class AppFunction {
       case 'Dormitory':
         Navigator.push(context, ScaleRoute(page: DormitoryScreen()));
         break;
-      case 'Transport':
-        Navigator.push(context, ScaleRoute(page: TransportScreen()));
-        break;
+      // case 'Transport':
+      //   Navigator.push(context, ScaleRoute(page: TransportScreen()));
+       // break;
       case 'Subjects':
         Navigator.push(
             context,
@@ -759,9 +759,9 @@ class AppFunction {
       case 'Assign Vehicle':
         Navigator.push(context, ScaleRoute(page: AssignVehicle()));
         break;
-      case 'Transport':
-        Navigator.push(context, ScaleRoute(page: TransportScreen()));
-        break;
+      // case 'Transport':
+      //   Navigator.push(context, ScaleRoute(page: TransportScreen()));
+      //   break;
     }
   }
 
