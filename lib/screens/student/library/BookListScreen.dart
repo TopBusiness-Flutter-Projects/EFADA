@@ -4,6 +4,7 @@ import 'dart:convert';
 // Flutter imports:
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 // Package imports:
 import 'package:http/http.dart' as http;
@@ -41,7 +42,7 @@ class _BookListState extends State<BookListScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBarWidget(title: 'Book List'),
+      appBar: CustomAppBarWidget(title: 'Book List'.tr),
       backgroundColor: Colors.white,
       body: Padding(
         padding: const EdgeInsets.all(8.0),

@@ -124,7 +124,7 @@ class _AddContentScreeenState extends State<AddContentScreeen> {
               child: Container(
                 alignment: Alignment.center,
                 width: MediaQuery.of(context).size.width,
-                height: 50.0,
+                height: 80.0,
                 decoration: Utils.gradientBtnDecoration,
                 child: Text(
                   "Save".tr,

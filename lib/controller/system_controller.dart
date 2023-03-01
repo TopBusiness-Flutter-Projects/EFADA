@@ -28,6 +28,7 @@ class SystemController extends GetxController {
             headers: Utils.setHeader(_token.toString()));
 
         if (response.statusCode == 200) {
+        //  print("ddkdkkd");
           final studentRecords = systemSettingsFromJson(response.body);
           systemSettings.value = studentRecords;
 

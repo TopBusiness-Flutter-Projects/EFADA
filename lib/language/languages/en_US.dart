@@ -64,7 +64,7 @@ const Map<String, String> en_US = {
   "Child List": "Child List",
   "Child Dashboard": "Child Dashboard",
   "student": "student",
-  "Study Materials": "Study Materials",
+  "Study Materials": "Educational Aspects",
   "Assignment": "Assignment",
   "Syllabus": "Teaching Cards",
   "Other Downloads": "Semi Annual reports",

@@ -64,7 +64,7 @@ const Map<String, String> ar = {
   "Child List": "قائمة الأبناء",
   "Child Dashboard": "الرئيسية",
   "student": "طالب",
-  "Study Materials": "المواد الدراسية",
+  "Study Materials": "الجوانب التعليمية",
   "Assignment": "أوراق العمل",
   "Syllabus": "بطاقات تدريس",
   "Other Downloads": "تقارير النصف السنوية والسنوية ",

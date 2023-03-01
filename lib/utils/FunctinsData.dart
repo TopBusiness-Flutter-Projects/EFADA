@@ -410,6 +410,7 @@ class AppFunction {
             .pushAndRemoveUntil(route, (Route<dynamic> route) => false);
         break;
       case '4':
+
         route =
             ScaleRoute(page: DashboardScreen(teachers, teachersIcons, rule));
         Navigator.of(context, rootNavigator: true)
