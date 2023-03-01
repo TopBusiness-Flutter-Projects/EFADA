@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 // Package imports:
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart'as badg;
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:efada/controller/system_controller.dart';
@@ -195,7 +195,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                   PersistentBottomNavBarItem(
                     inactiveIcon: Obx(() {
                       if (controller.isLoading.value) {
-                        return Badge(
+                        return badg.Badge(
                           badgeContent: Text(
                             '0',
                             style: Theme.of(context)
@@ -204,7 +204,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                 .copyWith(color: Colors.white),
                           ),
                           badgeColor: Color(0xFFF7B147).withOpacity(0.8),
-                          animationType: BadgeAnimationType.fade,
+                          animationType: badg.BadgeAnimationType.fade,
                           toAnimate: false,
                           child: Icon(
                             Themify.bell,
@@ -213,7 +213,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           ),
                         );
                       }
-                      return Badge(
+                      return badg.Badge(
                         badgeContent: Text(
                           '${controller.notificationCount.value}',
                           style: Theme.of(context)
@@ -222,7 +222,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                               .copyWith(color: Colors.white),
                         ),
                         badgeColor: Color(0xFFF7B147),
-                        animationType: BadgeAnimationType.fade,
+                        animationType: badg.BadgeAnimationType.fade,
                         child: Icon(
                           Themify.bell,
                           size: 22.sp,
@@ -232,10 +232,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
                     }),
                     icon: Obx(() {
                       if (controller.isLoading.value) {
-                        return Badge(
+                        return badg.Badge(
                           showBadge: false,
                           badgeColor: Color(0xFFF7B147).withOpacity(0.8),
-                          animationType: BadgeAnimationType.fade,
+                          animationType: badg.BadgeAnimationType.fade,
                           toAnimate: false,
                           child: Icon(
                             Themify.bell,
@@ -244,7 +244,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           ),
                         );
                       }
-                      return Badge(
+                      return badg.Badge(
                         badgeContent: Text(
                           '${controller.notificationCount.value}',
                           style: Theme.of(context)
@@ -253,7 +253,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                               .copyWith(color: Colors.white),
                         ),
                         badgeColor: Color(0xFFF7B147),
-                        animationType: BadgeAnimationType.fade,
+                        animationType: badg.BadgeAnimationType.fade,
                         child: Icon(
                           Themify.bell,
                           size: 22.sp,
