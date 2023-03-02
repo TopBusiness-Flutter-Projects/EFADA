@@ -43,8 +43,13 @@ class _DownloadsHomeState extends State<DownloadsHome> {
         padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
         child: GridView.builder(
           itemCount: _titles.length,
+
           gridDelegate:
-              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+              SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 3,
+                  childAspectRatio: .7
+
+              ),
           itemBuilder: (context, index) {
             return CustomWidget(
               index: index,
