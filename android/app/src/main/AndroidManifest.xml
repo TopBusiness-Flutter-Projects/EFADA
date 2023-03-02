@@ -13,7 +13,7 @@
     <application
         android:name="${applicationName}"
         android:allowBackup="false"
-        android:icon="@mipmap/launcher_icon"
+        android:icon="@mipmap/ic_launcher"
         android:label="EFADA"
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"

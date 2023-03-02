@@ -1,14 +1,14 @@
 import UIKit
 import Flutter
 import Firebase
-import GoogleMaps
+///#import GoogleMaps
 @UIApplicationMain
 @objc class AppDelegate: FlutterAppDelegate {
   override func application(
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-  GMSServices.provideAPIKey("")
+//  GMSServices.provideAPIKey("")
   FirebaseApp.configure()
     var flutter_native_splash = 1
     UIApplication.shared.isStatusBarHidden = false
