@@ -224,11 +224,11 @@ class AppFunction {
   ];
 
   static var librarys = [
-    'Book List',
+    //'Book List',
     'Books Issued',
   ];
   static var libraryIcons = [
-    'assets/images/library.png',
+  //  'assets/images/library.png',
     'assets/images/library.png',
   ];
   static var examinations = [
